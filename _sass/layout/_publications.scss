@@ -1,37 +1,24 @@
-.publications-year {
-  margin: 2rem 0 0.9rem;
-  padding-bottom: 0.2rem;
-  border-bottom: 1px solid var(--global-border-color);
-}
-
 .publications-list {
   margin: 0;
-  padding-left: 0;
-  list-style: none;
+  padding-left: 1.2rem;
+  list-style: disc;
 }
 
 .publications-list__item {
-  margin-bottom: 1.35rem;
+  margin-bottom: 1.2rem;
+  padding-left: 0.15rem;
 }
 
 .publication-entry__title {
-  margin: 0 0 0.2rem;
-  font-size: $type-size-5;
-  font-weight: 600;
-  line-height: 1.35;
-}
-
-.publication-entry__title a {
-  text-decoration: none;
-}
-
-.publication-entry__title a:hover {
-  text-decoration: underline;
+  margin: 0;
+  font-size: $type-size-6;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 .publication-entry__authors,
 .publication-entry__venue {
-  margin: 0.12rem 0 0;
+  margin: 0;
   font-size: $type-size-6;
   line-height: 1.5;
 }
@@ -60,7 +47,7 @@
   padding: 0;
   border: 0;
   background: transparent;
-  color: var(--global-link-color);
+  color: var(--global-text-color);
   font-size: $type-size-6;
   line-height: 1.5;
   text-decoration: none;

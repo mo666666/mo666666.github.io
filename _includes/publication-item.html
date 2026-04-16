@@ -1,10 +1,6 @@
 {% include base_path %}
 {% assign publication = include.item %}
 {% assign title = publication.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% assign title_url = publication.paperurl | default: publication.link %}
-{% if title_url == nil or title_url == "" %}
-  {% assign title_url = base_path | append: publication.url %}
-{% endif %}
 {% assign highlight_name = site.author.highlight_name | default: "Yichuan Mo" %}
 {% assign authors = publication.authors %}
 {% if authors == nil or authors == "" %}
@@ -19,7 +15,7 @@
 
 <article class="publication-entry" itemscope itemtype="http://schema.org/ScholarlyArticle">
   <h3 class="publication-entry__title" itemprop="headline">
-    <a href="{{ title_url }}" {% if title_url contains '://' %}target="_blank" rel="noopener"{% endif %}>{{ title }}</a>
+    <strong>{{ title }}</strong>
   </h3>
 
   {% if authors %}
@@ -27,7 +23,7 @@
   {% endif %}
 
   {% if publication.venue %}
-    <p class="publication-entry__venue"><em>{{ publication.venue }}</em></p>
+    <p class="publication-entry__venue"><strong><em>{{ publication.venue }}</em></strong></p>
   {% elsif publication.citation %}
     <p class="publication-entry__venue">{{ publication.citation }}</p>
   {% endif %}

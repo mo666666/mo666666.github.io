@@ -24,10 +24,10 @@ repository               : "mo666666/mo666666.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Ph.D. candidate in School of Intelligence Science and Technology, Peking University"
+  name             : "Hi! I am Yichuan Mo (莫易川)"
   highlight_name   : "Yichuan Mo"
   pronouns         : # example: "she/her"  
-  bio              : 'Four-year PhD candidate @ <a href="https://zero-lab-pku.github.io/" target="_blank" rel="noopener">ZERO Lab</a>'
+  bio              : 'Ph.D. candidate in School of Intelligence Science and Technology, Peking University'
   location         : "Beijing"
   employer         : "Peking University"
   uri              : # URL
