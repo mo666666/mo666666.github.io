@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a static Google Scholar citations badge SVG."""
+"""Generate static Google Scholar citation assets."""
 
 from __future__ import annotations
 
@@ -15,6 +15,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = REPO_ROOT / "_config.yml"
 BADGE_PATH = REPO_ROOT / "images" / "google-scholar-citations.svg"
+DATA_PATH = REPO_ROOT / "_data" / "google_scholar.yml"
 
 
 def read_google_scholar_url() -> str:
@@ -120,7 +121,13 @@ def main() -> int:
     )
 
     updated_at = dt.datetime.now(dt.timezone.utc).isoformat()
-    print(f"Updated Google Scholar badge with {citations} citations at {updated_at}")
+    DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+    DATA_PATH.write_text(
+        f"citations: {citations}\nupdated_at: '{updated_at}'\n",
+        encoding="utf-8",
+    )
+
+    print(f"Updated Google Scholar assets with {citations} citations at {updated_at}")
     return 0
 
 

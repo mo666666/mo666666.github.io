@@ -29,8 +29,8 @@ jobs:
       - name: Generate Google Scholar badge
         run: python scripts/update_google_scholar_badge.py
 
-      - name: Commit updated badge
+      - name: Commit updated scholar assets
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update Google Scholar citations badge"
-          file_pattern: images/google-scholar-citations.svg
+          file_pattern: images/google-scholar-citations.svg _data/google_scholar.yml

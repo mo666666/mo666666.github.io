@@ -336,8 +336,8 @@
   min-width: 0;
 }
 
-.author__scholar-badge {
-  width: auto !important;
-  max-width: 100%;
-  flex-shrink: 1;
+.author__scholar-count {
+  color: var(--global-text-color-light);
+  font-size: $type-size-6;
+  white-space: nowrap;
 }

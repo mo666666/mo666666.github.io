@@ -50,12 +50,9 @@
             <span class="author__scholar-label">
               <i class="ai ai-google-scholar ai-fw icon-pad-right"></i>Google Scholar
             </span>
-            <img
-              class="author__scholar-badge"
-              src="{{ '/images/google-scholar-citations.svg' | prepend: base_path }}"
-              alt="Google Scholar citation count"
-              loading="lazy"
-              decoding="async">
+            {% if site.data.google_scholar and site.data.google_scholar.citations %}
+              <span class="author__scholar-count">(🌟 {{ site.data.google_scholar.citations }})</span>
+            {% endif %}
           </a>
         </li>
       {% endif %}
