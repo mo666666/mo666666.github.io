@@ -7,7 +7,8 @@ excerpt: "NeurIPS 2022 Spotlight paper on improving GANs with adversarial learni
 date: 2022-12-01
 venue: "NeurIPS 2022"
 citation: 'Yang Li, Yichuan Mo, Liangliang Shi, Junchi Yan, Xiaolu Zhang, and Jun Zhou. (2022). &quot;Improving Generative Adversarial Networks via Adversarial Learning in Latent Space.&quot; <i>NeurIPS 2022</i>.'
-paperurl: https://openreview.net/pdf?id=Magl9CSHB87
+paperurl: https://proceedings.neurips.cc/paper_files/paper/2022/file/3a1fc7b8e200a45110872c56f0569f61-Paper-Conference.pdf
+codeurl: https://github.com/yangco-le/AdvLatGAN
 bibtex: |
   @inproceedings{li2022improving,
     title = {Improving Generative Adversarial Networks via Adversarial Learning in Latent Space},

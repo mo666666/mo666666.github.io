@@ -7,7 +7,7 @@ excerpt: "ICML 2024 paper on defending diffusion models against backdoor attacks
 date: 2024-07-02
 venue: "ICML 2024"
 citation: 'Yichuan Mo, Hui Huang, Mingjie Li, Ang Li, and Yisen Wang. (2024). &quot;TERD: A Unified Framework for Safeguarding Diffusion Models Against Backdoors.&quot; <i>ICML 2024</i>.'
-paperurl: https://arxiv.org/pdf/2409.05294
+paperurl: https://proceedings.mlr.press/v235/mo24a.html
 codeurl: https://github.com/PKU-ML/TERD
 bibtex: |
   @inproceedings{mo2024terd,

@@ -7,7 +7,7 @@ excerpt: 'TPAMI 2026 journal article on adversarial transferability and generali
 date: 2026-01-01
 venue: "TPAMI 2026"
 citation: 'Yisen Wang, Yichuan Mo, Dongxian Wu, Mingjie Li, Xingjun Ma, and Zhouchen Lin. (2026). &quot;On the Adversarial Transferability of Generalized &quot;Skip Connections&quot;.&quot; <i>TPAMI 2026</i>.'
-paperurl: https://arxiv.org/pdf/2410.08950
+paperurl: https://ieeexplore.ieee.org/abstract/document/11399637/
 codeurl: https://github.com/mo666666/SGM
 bibtex: |
   @article{wang2026skipconnections,
