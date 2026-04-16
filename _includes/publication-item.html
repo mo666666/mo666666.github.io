@@ -1,0 +1,25 @@
+{% include base_path %}
+{% assign publication = include.item %}
+{% assign title = publication.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% assign title_url = publication.paperurl | default: publication.link %}
+{% if title_url == nil or title_url == "" %}
+  {% assign title_url = base_path | append: publication.url %}
+{% endif %}
+
+<article class="publication-entry" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <h3 class="publication-entry__title" itemprop="headline">
+    <a href="{{ title_url }}" {% if title_url contains '://' %}target="_blank" rel="noopener"{% endif %}>{{ title }}</a>
+  </h3>
+
+  {% if publication.citation %}
+    <p class="publication-entry__citation">{{ publication.citation }}</p>
+  {% elsif publication.venue %}
+    <p class="publication-entry__citation"><em>{{ publication.venue }}</em>, {{ publication.date | default: "1900-01-01" | date: "%Y" }}</p>
+  {% endif %}
+
+  {% if publication.excerpt %}
+    <p class="publication-entry__excerpt" itemprop="description">{{ publication.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+  {% endif %}
+
+  {% include publication-links.html item=publication %}
+</article>

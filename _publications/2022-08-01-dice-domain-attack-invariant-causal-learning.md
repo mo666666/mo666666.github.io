@@ -7,6 +7,15 @@ excerpt: "SIGKDD 2022 paper on causal learning for data privacy protection and a
 date: 2022-08-01
 venue: "SIGKDD 2022"
 citation: 'Qibing Ren, Yiting Chen, Yichuan Mo, Qitian Wu, and Junchi Yan. (2022). &quot;DICE: Domain-attack Invariant Causal Learning for Improved Data Privacy Protection and Adversarial Robustness.&quot; <i>SIGKDD 2022</i>.'
+paperurl: https://openreview.net/pdf?id=BZLdXBjB8O
+codeurl: https://github.com/Thinklab-SJTU/DICE
+bibtex: |
+  @inproceedings{ren2022dice,
+    title = {DICE: Domain-attack Invariant Causal Learning for Improved Data Privacy Protection and Adversarial Robustness},
+    author = {Ren, Qibing and Chen, Yiting and Mo, Yichuan and Wu, Qitian and Yan, Junchi},
+    booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+    year = {2022}
+  }
 ---
 
 This paper presents a unified causal learning framework for data privacy protection and adversarial robustness.

@@ -1,0 +1,41 @@
+{% include base_path %}
+{% assign publication = include.item %}
+{% assign pdf_url = publication.paperurl | default: publication.pdfurl %}
+{% assign slides_url = publication.slidesurl %}
+{% assign code_url = publication.codeurl %}
+{% assign project_url = publication.projecturl %}
+{% assign bibtex_url = publication.bibtexurl %}
+
+{% assign has_actions = false %}
+{% if pdf_url or slides_url or code_url or project_url or bibtex_url or publication.bibtex %}
+  {% assign has_actions = true %}
+{% endif %}
+
+{% if has_actions %}
+  <div class="publication-links">
+    {% if pdf_url %}
+      <a class="publication-links__button" href="{% if pdf_url contains '://' %}{{ pdf_url }}{% else %}{{ pdf_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">PDF</a>
+    {% endif %}
+
+    {% if slides_url %}
+      <a class="publication-links__button" href="{% if slides_url contains '://' %}{{ slides_url }}{% else %}{{ slides_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">Slides</a>
+    {% endif %}
+
+    {% if code_url %}
+      <a class="publication-links__button" href="{% if code_url contains '://' %}{{ code_url }}{% else %}{{ code_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">Code</a>
+    {% endif %}
+
+    {% if project_url %}
+      <a class="publication-links__button" href="{% if project_url contains '://' %}{{ project_url }}{% else %}{{ project_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">Project</a>
+    {% endif %}
+
+    {% if publication.bibtex %}
+      <details class="publication-links__details">
+        <summary class="publication-links__button">Bib</summary>
+        <pre class="publication-links__bibtex"><code>{{ publication.bibtex | escape }}</code></pre>
+      </details>
+    {% elsif bibtex_url %}
+      <a class="publication-links__button" href="{% if bibtex_url contains '://' %}{{ bibtex_url }}{% else %}{{ bibtex_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">Bib</a>
+    {% endif %}
+  </div>
+{% endif %}

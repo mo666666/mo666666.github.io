@@ -7,6 +7,15 @@ excerpt: "TPAMI 2026 journal article on jailbreak and guard behavior with few in
 date: 2026-01-02
 venue: "TPAMI 2026"
 citation: 'Zeming Wei, Yifei Wang, Li Ang, Yichuan Mo, and Yisen Wang. (2026). &quot;Jailbreak and Guard Aligned Language Models with Only Few In-Context Demonstrations.&quot; <i>TPAMI 2026</i>.'
+paperurl: https://arxiv.org/pdf/2310.06387
+projecturl: https://adv-icl.github.io/
+bibtex: |
+  @article{wei2026jailbreak,
+    title = {Jailbreak and Guard Aligned Language Models with Only Few In-Context Demonstrations},
+    author = {Wei, Zeming and Wang, Yifei and Ang, Li and Mo, Yichuan and Wang, Yisen},
+    journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+    year = {2026}
+  }
 ---
 
 This journal article was later followed by Anthropic.
