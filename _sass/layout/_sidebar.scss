@@ -325,8 +325,8 @@
 
 .author__scholar-link {
   display: flex !important;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
   gap: 0.6rem;
 }
 
@@ -338,6 +338,6 @@
 
 .author__scholar-badge {
   width: auto !important;
-  max-width: none;
-  flex-shrink: 0;
+  max-width: 100%;
+  flex-shrink: 1;
 }

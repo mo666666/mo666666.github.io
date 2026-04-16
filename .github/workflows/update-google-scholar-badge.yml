@@ -1,0 +1,36 @@
+name: Update Google Scholar Badge
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 2 * * *"
+  push:
+    paths:
+      - "_config.yml"
+      - "scripts/update_google_scholar_badge.py"
+      - ".github/workflows/update-google-scholar-badge.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate Google Scholar badge
+        run: python scripts/update_google_scholar_badge.py
+
+      - name: Commit updated badge
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update Google Scholar citations badge"
+          file_pattern: images/google-scholar-citations.svg
