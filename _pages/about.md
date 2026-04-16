@@ -29,7 +29,7 @@ redirect_from:
    <li>2023.9 Merit Student of Peking University</li>
    <li>2024.9 Yuehua Luo Scholarship</li>
    <li>2024.9 Outstanding Research Award in Peking University</li>
-   <li>2025.4 Nomination for Academic Star（<strong>Five students in AI Dept.</strong>）</li>
+   <li>2025.4 Nomination for Academic Star（<strong>Five Graduate students in AI Dept.</strong>）</li>
   <li>2025.11 Taotian Scholarship (<strong>Eight Graduate students in AI Dept.</strong>)</li>
   <li>2026.4 Optiver AI PhD Scholarship (<strong>Six PhD students in China</strong>)</li>
 </ul>
