@@ -5,20 +5,31 @@
 {% if title_url == nil or title_url == "" %}
   {% assign title_url = base_path | append: publication.url %}
 {% endif %}
+{% assign highlight_name = site.author.highlight_name | default: "Yichuan Mo" %}
+{% assign authors = publication.authors %}
+{% if authors == nil or authors == "" %}
+  {% if publication.citation %}
+    {% assign authors = publication.citation | split: ". (" | first %}
+  {% endif %}
+{% endif %}
+{% capture highlighted_author %}<strong>{{ highlight_name }}</strong>{% endcapture %}
+{% if authors %}
+  {% assign authors = authors | replace: highlight_name, highlighted_author %}
+{% endif %}
 
 <article class="publication-entry" itemscope itemtype="http://schema.org/ScholarlyArticle">
   <h3 class="publication-entry__title" itemprop="headline">
     <a href="{{ title_url }}" {% if title_url contains '://' %}target="_blank" rel="noopener"{% endif %}>{{ title }}</a>
   </h3>
 
-  {% if publication.citation %}
-    <p class="publication-entry__citation">{{ publication.citation }}</p>
-  {% elsif publication.venue %}
-    <p class="publication-entry__citation"><em>{{ publication.venue }}</em>, {{ publication.date | default: "1900-01-01" | date: "%Y" }}</p>
+  {% if authors %}
+    <p class="publication-entry__authors">{{ authors }}</p>
   {% endif %}
 
-  {% if publication.excerpt %}
-    <p class="publication-entry__excerpt" itemprop="description">{{ publication.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+  {% if publication.venue %}
+    <p class="publication-entry__venue"><em>{{ publication.venue }}</em></p>
+  {% elsif publication.citation %}
+    <p class="publication-entry__venue">{{ publication.citation }}</p>
   {% endif %}
 
   {% include publication-links.html item=publication %}

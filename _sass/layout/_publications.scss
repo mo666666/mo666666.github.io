@@ -1,27 +1,23 @@
 .publications-year {
-  margin: 2rem 0 1rem;
-  padding-bottom: 0.35rem;
+  margin: 2rem 0 0.9rem;
+  padding-bottom: 0.2rem;
   border-bottom: 1px solid var(--global-border-color);
 }
 
 .publications-list {
   margin: 0;
-  padding-left: 1.4rem;
-}
-
-.publications-list > li::marker {
-  color: var(--global-text-color-light);
-  font-weight: 600;
+  padding-left: 0;
+  list-style: none;
 }
 
 .publications-list__item {
-  margin-bottom: 1.5rem;
-  padding-left: 0.2rem;
+  margin-bottom: 1.35rem;
 }
 
 .publication-entry__title {
-  margin: 0 0 0.3rem;
+  margin: 0 0 0.2rem;
   font-size: $type-size-5;
+  font-weight: 600;
   line-height: 1.35;
 }
 
@@ -33,49 +29,46 @@
   text-decoration: underline;
 }
 
-.publication-entry__citation,
-.publication-entry__excerpt {
-  margin: 0.2rem 0 0;
+.publication-entry__authors,
+.publication-entry__venue {
+  margin: 0.12rem 0 0;
   font-size: $type-size-6;
+  line-height: 1.5;
 }
 
-.publication-entry__citation {
+.publication-entry__authors {
   color: var(--global-text-color);
 }
 
-.publication-entry__excerpt {
+.publication-entry__authors strong {
+  font-weight: 700;
+}
+
+.publication-entry__venue {
   color: var(--global-text-color-light);
 }
 
 .publication-links {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   gap: 0.45rem;
-  margin-top: 0.65rem;
+  margin-top: 0.18rem;
 }
 
-.publication-links__button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 2rem;
-  padding: 0.3rem 0.7rem;
-  border: 1px solid var(--global-border-color);
-  border-radius: 999px;
+.publication-links__link {
+  display: inline;
+  padding: 0;
+  border: 0;
   background: transparent;
-  color: var(--global-text-color);
-  font-size: 0.85rem;
-  line-height: 1;
+  color: var(--global-link-color);
+  font-size: $type-size-6;
+  line-height: 1.5;
   text-decoration: none;
   cursor: pointer;
-  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
 
-.publication-links__button:hover {
-  border-color: var(--global-link-color);
-  background: rgba(0, 0, 0, 0.035);
-  color: var(--global-link-color);
-  text-decoration: none;
+.publication-links__link:hover {
+  text-decoration: underline;
 }
 
 .publication-links__details {
@@ -99,7 +92,7 @@
 }
 
 .publication-links__bibtex {
-  margin: 0.6rem 0 0;
+  margin: 0.35rem 0 0;
   padding: 0.85rem 1rem;
   overflow-x: auto;
   border: 1px solid var(--global-border-color);

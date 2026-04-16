@@ -14,28 +14,28 @@
 {% if has_actions %}
   <div class="publication-links">
     {% if pdf_url %}
-      <a class="publication-links__button" href="{% if pdf_url contains '://' %}{{ pdf_url }}{% else %}{{ pdf_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">PDF</a>
+      <a class="publication-links__link" href="{% if pdf_url contains '://' %}{{ pdf_url }}{% else %}{{ pdf_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">[pdf]</a>
     {% endif %}
 
     {% if slides_url %}
-      <a class="publication-links__button" href="{% if slides_url contains '://' %}{{ slides_url }}{% else %}{{ slides_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">Slides</a>
+      <a class="publication-links__link" href="{% if slides_url contains '://' %}{{ slides_url }}{% else %}{{ slides_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">[slides]</a>
     {% endif %}
 
     {% if code_url %}
-      <a class="publication-links__button" href="{% if code_url contains '://' %}{{ code_url }}{% else %}{{ code_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">Code</a>
+      <a class="publication-links__link" href="{% if code_url contains '://' %}{{ code_url }}{% else %}{{ code_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">[code]</a>
     {% endif %}
 
     {% if project_url %}
-      <a class="publication-links__button" href="{% if project_url contains '://' %}{{ project_url }}{% else %}{{ project_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">Project</a>
+      <a class="publication-links__link" href="{% if project_url contains '://' %}{{ project_url }}{% else %}{{ project_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">[project]</a>
     {% endif %}
 
     {% if publication.bibtex %}
       <details class="publication-links__details">
-        <summary class="publication-links__button">Bib</summary>
+        <summary class="publication-links__link">[bib]</summary>
         <pre class="publication-links__bibtex"><code>{{ publication.bibtex | escape }}</code></pre>
       </details>
     {% elsif bibtex_url %}
-      <a class="publication-links__button" href="{% if bibtex_url contains '://' %}{{ bibtex_url }}{% else %}{{ bibtex_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">Bib</a>
+      <a class="publication-links__link" href="{% if bibtex_url contains '://' %}{{ bibtex_url }}{% else %}{{ bibtex_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">[bib]</a>
     {% endif %}
   </div>
 {% endif %}
