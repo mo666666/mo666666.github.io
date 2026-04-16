@@ -12,6 +12,13 @@ redirect_from:
   <p>My research interests include trustworthy AI, adversarial robustness, and generative model safety.</p>
 </div>
 
+<h2 class="homepage-section-title">Awards</h2>
+
+<ul>
+  <li>2019 Graduate National Scholarship (top 1% in CS Dept.)</li>
+  <li>2020 Graduate National Scholarship (top 1% in CS Dept.)</li>
+</ul>
+
 <h2 class="homepage-section-title">📝 Publications</h2>
 
 {% assign sorted_publications = site.publications | sort: "date" | reverse %}
