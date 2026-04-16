@@ -16,7 +16,7 @@ redirect_from:
 
 <p><strong>Undergraduate</strong></p>
 <ul>
-  <li>GPA: 90.93/100 (or 3.93/4.3), Rank: 2/128 (top 1.6%)</li>
+  <li>GPA: 90.93/100 (or 3.93/4.3), Rank: 2/128 (<strong>Top 1.6%</strong>)</li>
   <li>Courses: 55.81% above A, 24.42% above A+</li>
 </ul>
 
