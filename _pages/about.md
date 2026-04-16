@@ -7,17 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year PhD candidate at Peking University, working on safety alignment and the development of next-generation large language models.
+<div class="homepage-intro">
+  <p>I am a fourth-year PhD candidate at Peking University, working on safety alignment and the development of next-generation large language models.</p>
+  <p>My research interests include trustworthy AI, adversarial robustness, and generative model safety.</p>
+</div>
 
-My research interests include trustworthy AI, adversarial robustness, and generative model safety.
-
-## Publications
+<h2 class="homepage-section-title">📝 Selected Papers</h2>
 
 {% assign sorted_publications = site.publications | sort: "date" | reverse %}
-<ul class="publications-list">
+<div class="publications-list">
 {% for post in sorted_publications %}
-  <li class="publications-list__item">
+  <div class="publications-list__item">
     {% include publication-item.html item=post %}
-  </li>
+  </div>
 {% endfor %}
-</ul>
+</div>
