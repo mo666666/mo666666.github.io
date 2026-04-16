@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yichuan Mo / Personal Homepage"
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Yichuan Mo"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Hi! I am Yichuan Mo (莫易川)!"
   pronouns         : # example: "she/her"  
-  bio              : 'PhD candidate @ <a href="https://zero-lab-pku.github.io/" target="_blank" rel="noopener">ZERO Lab</a>.'
+  bio              : 'Four-year PhD candidate @ <a href="https://zero-lab-pku.github.io/" target="_blank" rel="noopener">ZERO Lab</a>'
   location         : "Beijing"
   employer         : "Peking University"
   uri              : # URL
