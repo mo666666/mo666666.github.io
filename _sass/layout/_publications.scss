@@ -22,21 +22,27 @@
 }
 
 .publications-list__item {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.1rem;
+}
+
+.publication-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 0.02rem;
 }
 
 .publication-entry__title {
-  margin: 0 0 0.15rem;
+  margin: 0;
   font-size: 0.98rem;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.28;
 }
 
 .publication-entry__authors,
 .publication-entry__venue {
   margin: 0;
   font-size: 0.95rem;
-  line-height: 1.45;
+  line-height: 1.28;
 }
 
 .publication-entry__authors {
@@ -52,22 +58,25 @@
 }
 
 .publication-links {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-top: 0.1rem;
+  align-items: baseline;
+  column-gap: 0.4rem;
+  row-gap: 0.05rem;
+  margin-top: 0;
 }
 
 .publication-links__link {
-  display: inline;
+  display: inline-block;
   padding: 0;
   border: 0;
   background: transparent;
   color: var(--global-link-color);
   font-size: 0.92rem;
-  line-height: 1.4;
+  line-height: 1.2;
   text-decoration: none;
   cursor: pointer;
+  vertical-align: baseline;
 }
 
 .publication-links__link:hover {
@@ -76,10 +85,13 @@
 
 .publication-links__details {
   display: inline-block;
+  vertical-align: baseline;
 }
 
 .publication-links__details summary {
   list-style: none;
+  display: inline-block;
+  line-height: 1.2;
 }
 
 .publication-links__details summary::-webkit-details-marker {
@@ -95,7 +107,7 @@
 }
 
 .publication-links__bibtex {
-  margin: 0.35rem 0 0;
+  margin: 0.2rem 0 0;
   padding: 0.85rem 1rem;
   overflow-x: auto;
   border: 1px solid var(--global-border-color);
