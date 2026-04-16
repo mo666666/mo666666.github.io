@@ -14,9 +14,16 @@ redirect_from:
 
 <h2 class="homepage-section-title"><i class="fa fa-trophy" aria-hidden="true"></i> Awards</h2>
 
+<p><strong>Graduate</strong></p>
 <ul>
-  <li>2019 Graduate National Scholarship (top 1% in CS Dept.)</li>
-  <li>2020 Graduate National Scholarship (top 1% in CS Dept.)</li>
+  <li>2019.12 Graduate National Scholarship (top 1% in CS Dept.)</li>
+  <li>2020.12 Graduate National Scholarship (top 1% in CS Dept.)</li>
+  <li>2022.6 Outstanding Graduate of Shanghai (Top 3%)</li>
+</ul>
+
+<p><strong>Undergraduate</strong></p>
+<ul>
+  <li>2022.6 Outstanding Undergraduate Thesis, Shanghai Jiao Tong University (Top 1%, 1 out of 128 students in the department)</li>
 </ul>
 
 <h2 class="homepage-section-title">📝 Publications</h2>
