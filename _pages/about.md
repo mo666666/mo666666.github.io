@@ -12,7 +12,7 @@ redirect_from:
   <p>My research interests include trustworthy AI, adversarial robustness, and generative model safety.</p>
 </div>
 
-<h2 class="homepage-section-title">📝 Selected Papers</h2>
+<h2 class="homepage-section-title">📝 Publications</h2>
 
 {% assign sorted_publications = site.publications | sort: "date" | reverse %}
 <div class="publications-list">

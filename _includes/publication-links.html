@@ -1,13 +1,14 @@
 {% include base_path %}
 {% assign publication = include.item %}
-{% assign pdf_url = publication.paperurl | default: publication.pdfurl %}
+{% assign pdf_url = publication.pdf | default: publication.paperurl | default: publication.pdfurl %}
 {% assign slides_url = publication.slidesurl %}
-{% assign code_url = publication.codeurl %}
-{% assign project_url = publication.projecturl %}
-{% assign bibtex_url = publication.bibtexurl %}
+{% assign code_url = publication.code | default: publication.codeurl %}
+{% assign project_url = publication.project | default: publication.projecturl %}
+{% assign bib_content = publication.bib | default: publication.bibtex %}
+{% assign bibtex_url = publication.biburl | default: publication.bibtexurl %}
 
 {% assign has_actions = false %}
-{% if pdf_url or slides_url or code_url or project_url or bibtex_url or publication.bibtex %}
+{% if pdf_url or slides_url or code_url or project_url or bibtex_url or bib_content %}
   {% assign has_actions = true %}
 {% endif %}
 
@@ -29,10 +30,10 @@
       <a class="publication-links__link" href="{% if project_url contains '://' %}{{ project_url }}{% else %}{{ project_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">[project]</a>
     {% endif %}
 
-    {% if publication.bibtex %}
+    {% if bib_content %}
       <details class="publication-links__details">
         <summary class="publication-links__link">[bib]</summary>
-        <pre class="publication-links__bibtex"><code>{{ publication.bibtex | escape }}</code></pre>
+        <pre class="publication-links__bibtex"><code>{{ bib_content | escape }}</code></pre>
       </details>
     {% elsif bibtex_url %}
       <a class="publication-links__link" href="{% if bibtex_url contains '://' %}{{ bibtex_url }}{% else %}{{ bibtex_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">[bib]</a>
