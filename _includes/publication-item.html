@@ -15,7 +15,7 @@
 
 <article class="publication-entry" itemscope itemtype="http://schema.org/ScholarlyArticle">
   <h3 class="publication-entry__title" itemprop="headline">
-    <strong>{{ title }}</strong>
+    {{ title }}
   </h3>
 
   {% if authors %}
@@ -23,7 +23,7 @@
   {% endif %}
 
   {% if publication.venue %}
-    <p class="publication-entry__venue"><strong><em>{{ publication.venue }}</em></strong></p>
+    <p class="publication-entry__venue"><em>{{ publication.venue }}</em></p>
   {% elsif publication.citation %}
     <p class="publication-entry__venue">{{ publication.citation }}</p>
   {% endif %}

@@ -12,7 +12,7 @@ redirect_from:
   <p>My research interests include trustworthy AI, adversarial robustness, and generative model safety.</p>
 </div>
 
-<h2 class="homepage-section-title">Awards</h2>
+<h2 class="homepage-section-title"><i class="fa fa-trophy" aria-hidden="true"></i> Awards</h2>
 
 <ul>
   <li>2019 Graduate National Scholarship (top 1% in CS Dept.)</li>
