@@ -12,6 +12,22 @@ redirect_from:
   <p>My research interests include trustworthy AI, adversarial robustness, and generative model safety.</p>
 </div>
 
+<h2 class="homepage-section-title"><i class="fa fa-trophy" aria-hidden="true"></i> Academic Performance</h2>
+
+<p><strong>Undergraduate</strong></p>
+<ul>
+  <li>GPA: 90.93/100 (or 3.93/4.3), Rank: 2/128 (top 1.6%)</li>
+  <li>Courses: 55.81% above A, 24.42% above A+</li>
+</ul>
+
+
+<p><strong>Graduate</strong></p>
+<ul>
+  <li>GPA: 3.88/4.0</li>
+  <li>Courses: 71.4% above A</li>
+</ul>
+
+
 <h2 class="homepage-section-title"><i class="fa fa-trophy" aria-hidden="true"></i> Seletive Awards</h2>
 
 <p><strong>Undergraduate</strong></p>
