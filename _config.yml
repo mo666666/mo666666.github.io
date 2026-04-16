@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Hi! I am Yichuan Mo (莫易川)!"
   pronouns         : # example: "she/her"  
-  bio              : "I am a fourth-year PhD candidate at Peking University, working on safety alignment and the development of next-generation large language models."
+  bio              : 'PhD candidate @ <a href="https://zero-lab-pku.github.io/" target="_blank" rel="noopener">ZERO Lab</a>.'
   location         : "Beijing"
   employer         : "Peking University"
   uri              : # URL
