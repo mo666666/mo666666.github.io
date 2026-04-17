@@ -6,6 +6,11 @@
 {% assign project_url = publication.project | default: publication.projecturl %}
 {% assign bib_content = publication.bib | default: publication.bibtex %}
 {% assign bibtex_url = publication.biburl | default: publication.bibtexurl %}
+{% capture _bib_newline %}
+{% endcapture %}
+{% if bib_content %}
+  {% assign bib_attr = bib_content | escape | replace: _bib_newline, "&#10;" %}
+{% endif %}
 
 {% assign has_actions = false %}
 {% if pdf_url or slides_url or code_url or project_url or bibtex_url or bib_content %}
@@ -31,7 +36,7 @@
     {% endif %}
 
     {% if bib_content %}
-      <button type="button" class="publication-links__link publication-links__bib-trigger" data-bib="{{ bib_content | escape }}" data-bib-title="{{ publication.title | escape }}">[bib]</button>
+      <button type="button" class="publication-links__link publication-links__bib-trigger" data-bib="{{ bib_attr }}" data-bib-title="{{ publication.title | escape }}">[bib]</button>
     {% elsif bibtex_url %}
       <a class="publication-links__link" href="{% if bibtex_url contains '://' %}{{ bibtex_url }}{% else %}{{ bibtex_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">[bib]</a>
     {% endif %}
