@@ -3,7 +3,7 @@ title: "Decoding Large Language Diffusion Models with Foreseeing Movement"
 collection: publications
 category: conferences
 permalink: /publication/2026-decoding-large-language-diffusion-models-with-foreseeing-movement
-authors: "Yichuan Mo, Quan Chen, Mingjie Li, Zeming Wei, and Yisen Wang"
+authors: "Yichuan Mo<sup>*</sup>, Quan Chen<sup>*</sup>, Mingjie Li, Zeming Wei, and Yisen Wang"
 venue: "ICLR 2026 DeLTa Workshop"
 citation: 'Yichuan Mo, Quan Chen, Mingjie Li, Zeming Wei, and Yisen Wang. (2026). &quot;Decoding Large Language Diffusion Models with Foreseeing Movement.&quot; <i>ICLR 2026 DeLTa Workshop</i>.'
 pdf: https://arxiv.org/pdf/2512.04135

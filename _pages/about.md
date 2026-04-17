@@ -57,6 +57,7 @@ redirect_from:
 </ul>
 
 <h2 class="homepage-section-title">📝 Papers</h2>
+<p class="publications-note">(* Equal Contribution and # Student First Author)</p>
 
 {% assign sorted_publications = site.publications | sort: "date" | reverse %}
 <ul class="publications-list publications-list--bulleted">

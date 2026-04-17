@@ -3,6 +3,7 @@ title: 'On the Adversarial Transferability of Generalized "Skip Connections"'
 collection: publications
 category: manuscripts
 permalink: /publication/2026-generalized-skip-connections-transferability
+authors: "Yisen Wang, Yichuan Mo<sup>#</sup>, Dongxian Wu, Mingjie Li, Xingjun Ma, and Zhouchen Lin"
 venue: "Transactions on Pattern Analysis and Machine Intelligence 2026"
 citation: 'Yisen Wang, Yichuan Mo, Dongxian Wu, Mingjie Li, Xingjun Ma, and Zhouchen Lin. (2026). &quot;On the Adversarial Transferability of Generalized &quot;Skip Connections&quot;.&quot; <i>Transactions on Pattern Analysis and Machine Intelligence 2026</i>.'
 pdf: https://ieeexplore.ieee.org/abstract/document/11399637/
