@@ -36,20 +36,21 @@ redirect_from:
   <li>2019.12 National Scholarship (<strong style="color: #8B0000;">Top 1%</strong> in CE Dept.)</li>
   <li>2020.12 National Scholarship (<strong style="color: #8B0000;">Top 1%</strong> in CE Dept.)</li>
   <li>2021.12 Weichai Power Scholarship</li>
-  <li>2022.6 Outstanding Graduate of Shanghai (<strong style="color: #8B0000;">Top 3%</strong>)</li>
-  <li>2022.6 Outstanding Undergraduate Thesis, Shanghai Jiao Tong University (<strong style="color: #8B0000;">Top 1%</strong>, 1 out of 128 students in the department)</li>
-  
+  <li>2022.05 Outstanding Dormitory (D24 401)</li>
+  <li>2022.06 Outstanding Graduate of Shanghai (<strong style="color: #8B0000;">Top 3%</strong>)</li>
+  <li>2022.06 Outstanding Undergraduate Thesis, Shanghai Jiao Tong University (<strong style="color: #8B0000;">Top 1%</strong>, 1 out of 128 students in the department)</li>
 </ul>
 
 <p><strong>Graduate</strong></p>
 <ul>
-   <li>2023.9 Xiaomi Scholarship (First-Class)</li>
-   <li>2023.9 Merit Student of Peking University</li>
-   <li>2024.9 Yuehua Luo Scholarship</li>
-   <li>2024.9 Outstanding Research Award in Peking University</li>
-  <li>2025.4 Nomination for Academic Star（<strong style="color: #8B0000;">Five Graduate students in AI Dept.</strong>）</li>
+   <li>2023.12 Sunshine Dormitory</li>
+   <li>2023.09 Xiaomi Scholarship (First-Class)</li>
+   <li>2023.09 Merit Student of Peking University</li>
+   <li>2024.09 Yuehua Luo Scholarship</li>
+   <li>2024.09 Outstanding Research Award in Peking University</li>
+  <li>2025.04 Nomination for Academic Star（<strong style="color: #8B0000;">Five Graduate students in AI Dept.</strong>）</li>
   <li>2025.11 Taotian Scholarship (<strong style="color: #8B0000;">Eight Graduate students in AI Dept.</strong>)</li>
-  <li>2026.4 Optiver AI PhD Scholarship (<strong style="color: #8B0000;">Six PhD students in China</strong>)</li>
+  <li>2026.04 Optiver AI PhD Scholarship (<strong style="color: #8B0000;">Six PhD students in China</strong>)</li>
 
 
 
