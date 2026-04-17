@@ -12,7 +12,7 @@ redirect_from:
   <p>My research interests include trustworthy AI, adversarial robustness, and generative model safety.</p>
 </div>
 
-<h2 class="homepage-section-title"><i class="fa-regular fa-hundred-points" style="color: rgb(246, 35, 35);"></i> Academic Performance</h2>
+<h2 class="homepage-section-title">💯 Academic Performance</h2>
 
 <p><strong>Undergraduate</strong></p>
 <ul>
@@ -28,7 +28,7 @@ redirect_from:
 </ul>
 
 
-<h2 class="homepage-section-title"><i class="fa-sharp fa-regular fa-award" style="color: rgb(246, 203, 35);"></i> Seletive Awards</h2>
+<h2 class="homepage-section-title">🏆 Selective Awards</h2>
 
 <p><strong>Undergraduate</strong></p>
 <ul>
