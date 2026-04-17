@@ -6,8 +6,7 @@ permalink: /publication/2026-jailbreak-and-guard-aligned-language-models
 venue: "Transactions on Pattern Analysis and Machine Intelligence 2026"
 citation: 'Zeming Wei, Yifei Wang, Li Ang, Yichuan Mo, and Yisen Wang. (2026). &quot;Jailbreak and Guard Aligned Language Models with Only Few In-Context Demonstrations.&quot; <i>Transactions on Pattern Analysis and Machine Intelligence 2026</i>.'
 pdf: https://arxiv.org/pdf/2310.06387
-code:
-project: https://adv-icl.github.io/
+code: https://github.com/PKU-ML/adv-icl
 bib: |
   @article{wei2026jailbreak,
     title = {Jailbreak and Guard Aligned Language Models with Only Few In-Context Demonstrations},

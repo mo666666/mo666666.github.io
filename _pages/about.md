@@ -113,3 +113,11 @@ redirect_from:
     </article>
   </li>
 </ul>
+
+<h2 class="homepage-section-title">🛠️ Academic Service</h2>
+
+<ul>
+  <li><strong>Reviewer</strong>: NeurIPS 2023/2024/2025; ICLR 2024/2025/2026; ICML 2024/2025/2026; CVPR 2025/2026; ICCV 2025; IJCAI 2024; AAAI 2025/2026; AISTATS 2025; ECCV 2026</li>
+  <li><strong>Top Reviewer</strong> of NeurIPS 2023/2024/2025</li>
+  <li><strong>Notable Reviewer</strong> of ICLR 2025 (<strong style="color: #8B0000;">Top 3%</strong>)</li>
+</ul>
