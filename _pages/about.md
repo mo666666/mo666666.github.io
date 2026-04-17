@@ -38,7 +38,7 @@ redirect_from:
   <li>2021.12 Weichai Power Scholarship</li>
   <li>2022.05 Outstanding Dormitory (D24 401)</li>
   <li>2022.06 Outstanding Graduate of Shanghai (<strong style="color: #8B0000;">Top 3%</strong>)</li>
-  <li>2022.06 Outstanding Undergraduate Thesis, Shanghai Jiao Tong University (<strong style="color: #8B0000;">Top 1%</strong>, 1 out of 128 students in the department)</li>
+  <li>2022.06 Outstanding Undergraduate Thesis, Shanghai Jiao Tong University (<strong style="color: #8B0000;">Top 1%</strong>, 1 out of 128 students in CE Dept.)</li>
 </ul>
 
 <p><strong>Graduate</strong></p>
@@ -49,8 +49,8 @@ redirect_from:
    <li>2024.09 Yuehua Luo Scholarship</li>
    <li>2024.09 Outstanding Research Award in Peking University</li>
   <li>2025.04 Nomination for Academic Star（<strong style="color: #8B0000;">Five Graduate students in AI Dept.</strong>）</li>
-  <li>2025.11 Taotian Scholarship (<strong style="color: #8B0000;">Eight Graduate students in AI Dept.</strong>)</li>
-  <li>2026.04 Optiver AI PhD Scholarship (<strong style="color: #8B0000;">Six PhD students in China</strong>)</li>
+  <li>2025.11 <a href="https://mp.weixin.qq.com/s/2f75EA4WrAkxEw2N8lQ6zA">Taotian Scholarship</a> (<strong style="color: #8B0000;">Eight Graduate students in AI Dept.</strong>)</li>
+  <li>2026.04 <a href="https://mp.weixin.qq.com/s/0o5mH7wNe_JpQ994gPrQZg">Optiver AI PhD Scholarship</a> (<strong style="color: #8B0000;">Six PhD students in China</strong>)</li>
 
 
 
