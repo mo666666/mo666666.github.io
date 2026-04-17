@@ -16,12 +16,12 @@ redirect_from:
 
 <p><strong style="color: #8B0000;">Undergraduate</strong></p>
 <ul>
-  <li>GPA: 90.93/100 (or 3.93/4.3), Rank: 2/128 (<strong>Top 1.6%</strong>)</li>
+  <li>GPA: 90.93/100 (or 3.93/4.3), Rank: 2/128 (<strong style="color: #8B0000;">Top 1.6%</strong>)</li>
   <li>Courses: 55.81% above A, 24.42% above A+</li>
 </ul>
 
 
-<p><strong>Graduate</strong></p>
+<p><strong style="color: #8B0000;">Graduate</strong></p>
 <ul>
   <li>GPA: 3.88/4.0</li>
   <li>Courses: 71.4% above A</li>
