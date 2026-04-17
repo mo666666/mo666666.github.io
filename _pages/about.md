@@ -14,14 +14,14 @@ redirect_from:
 
 <h2 class="homepage-section-title"><i class="fa fa-trophy" aria-hidden="true"></i> Academic Performance</h2>
 
-<p><strong style="color: #8B0000;">Undergraduate</strong></p>
+<p><strong>Undergraduate</strong></p>
 <ul>
-  <li>GPA: 90.93/100 (or 3.93/4.3), Rank: 2/128 (<strong style="color: #8B0000;">Top 1.6%</strong>)</li>
+  <li>GPA: 90.93/100 (or 3.94/4.3), Rank: 2/128 (<strong style="color: #8B0000;">Top 1.6%</strong>)</li>
   <li>Courses: 55.81% above A, 24.42% above A+</li>
 </ul>
 
 
-<p><strong style="color: #8B0000;">Graduate</strong></p>
+<p><strong >Graduate</strong></p>
 <ul>
   <li>GPA: 3.88/4.0</li>
   <li>Courses: 71.4% above A</li>
@@ -35,11 +35,13 @@ redirect_from:
   <li>2019.10 Merit Student of Shanghai Jiao Tong University</li>
   <li>2019.12 National Scholarship (<strong style="color: #8B0000;">Top 1%</strong> in CE Dept.)</li>
   <li>2020.12 National Scholarship (<strong style="color: #8B0000;">Top 1%</strong> in CE Dept.)</li>
+  <li>2021.12 Weichai Power Scholarship</li>
   <li>2022.6 Outstanding Graduate of Shanghai (<strong style="color: #8B0000;">Top 3%</strong>)</li>
   <li>2022.6 Outstanding Undergraduate Thesis, Shanghai Jiao Tong University (<strong style="color: #8B0000;">Top 1%</strong>, 1 out of 128 students in the department)</li>
+  
 </ul>
 
-<p><strong style="color: #8B0000;">Graduate</strong></p>
+<p><strong>Graduate</strong></p>
 <ul>
    <li>2023.9 Xiaomi Scholarship (First-Class)</li>
    <li>2023.9 Merit Student of Peking University</li>
@@ -48,6 +50,9 @@ redirect_from:
   <li>2025.4 Nomination for Academic Star（<strong style="color: #8B0000;">Five Graduate students in AI Dept.</strong>）</li>
   <li>2025.11 Taotian Scholarship (<strong style="color: #8B0000;">Eight Graduate students in AI Dept.</strong>)</li>
   <li>2026.4 Optiver AI PhD Scholarship (<strong style="color: #8B0000;">Six PhD students in China</strong>)</li>
+
+
+
 </ul>
 
 <h2 class="homepage-section-title">📝 Publications</h2>
