@@ -28,7 +28,7 @@ redirect_from:
 </ul>
 
 
-<h2 class="homepage-section-title"><i class="fa fa-trophy" aria-hidden="true"></i> Seletive Awards</h2>
+<h2 class="homepage-section-title"><i class="fa-sharp fa-regular fa-award" style="color: rgb(246, 203, 35);"></i> Seletive Awards</h2>
 
 <p><strong>Undergraduate</strong></p>
 <ul>
