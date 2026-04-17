@@ -1,0 +1,94 @@
+<div class="bibtex-modal" id="bibtex-modal" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="bibtex-modal-title">
+  <div class="bibtex-modal__backdrop" data-bib-close></div>
+  <div class="bibtex-modal__dialog" role="document">
+    <div class="bibtex-modal__header">
+      <h3 class="bibtex-modal__title" id="bibtex-modal-title">BibTeX</h3>
+      <button type="button" class="bibtex-modal__close" aria-label="Close" data-bib-close>&times;</button>
+    </div>
+    <pre class="bibtex-modal__content"><code id="bibtex-modal-code"></code></pre>
+    <div class="bibtex-modal__footer">
+      <button type="button" class="bibtex-modal__copy" id="bibtex-modal-copy">Copy</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var modal = document.getElementById('bibtex-modal');
+  if (!modal) return;
+
+  var codeEl = document.getElementById('bibtex-modal-code');
+  var titleEl = document.getElementById('bibtex-modal-title');
+  var copyBtn = document.getElementById('bibtex-modal-copy');
+  var lastFocused = null;
+
+  function openModal(bibContent, bibTitle) {
+    codeEl.textContent = bibContent || '';
+    titleEl.textContent = bibTitle ? 'BibTeX — ' + bibTitle : 'BibTeX';
+    lastFocused = document.activeElement;
+    modal.hidden = false;
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('bibtex-modal-open');
+    resetCopyButton();
+    setTimeout(function () { copyBtn.focus(); }, 0);
+  }
+
+  function closeModal() {
+    modal.hidden = true;
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('bibtex-modal-open');
+    if (lastFocused && typeof lastFocused.focus === 'function') {
+      lastFocused.focus();
+    }
+  }
+
+  function resetCopyButton() {
+    copyBtn.textContent = 'Copy';
+    copyBtn.classList.remove('is-copied');
+  }
+
+  document.addEventListener('click', function (e) {
+    var trigger = e.target.closest('.publication-links__bib-trigger');
+    if (trigger) {
+      e.preventDefault();
+      openModal(trigger.getAttribute('data-bib'), trigger.getAttribute('data-bib-title'));
+      return;
+    }
+    if (e.target.closest('[data-bib-close]')) {
+      e.preventDefault();
+      closeModal();
+    }
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !modal.hidden) {
+      closeModal();
+    }
+  });
+
+  copyBtn.addEventListener('click', function () {
+    var text = codeEl.textContent;
+    var done = function () {
+      copyBtn.textContent = 'Copied!';
+      copyBtn.classList.add('is-copied');
+      setTimeout(resetCopyButton, 1600);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(fallback);
+    } else {
+      fallback();
+    }
+    function fallback() {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'absolute';
+      ta.style.left = '-9999px';
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); done(); } catch (err) { /* noop */ }
+      document.body.removeChild(ta);
+    }
+  });
+})();
+</script>
