@@ -82,3 +82,34 @@ redirect_from:
   {% endif %}
 {% endfor %}
 </ul>
+
+<h2 class="homepage-section-title">🤖 Open-source Models</h2>
+
+<ul class="publications-list publications-list--bulleted">
+  <li class="publications-list__item">
+    <article class="publication-entry">
+      <h3 class="publication-entry__title">
+        Baichuan-M3: Modeling Clinical Inquiry for Reliable Medical Decision-Making
+      </h3>
+      <p class="publication-entry__venue"><em>The toppest medical model in the world (Jan 2026)</em></p>
+      <div class="publication-links">
+        <a class="publication-links__link" href="https://arxiv.org/pdf/2602.06570" target="_blank" rel="noopener">[pdf]</a>
+        <a class="publication-links__link" href="https://github.com/baichuan-inc/Baichuan-M3-235B" target="_blank" rel="noopener">[github]</a>
+        <a class="publication-links__link" href="https://huggingface.co/baichuan-inc/Baichuan-M3-235B" target="_blank" rel="noopener">[huggingface]</a>
+      </div>
+    </article>
+  </li>
+  <li class="publications-list__item">
+    <article class="publication-entry">
+      <h3 class="publication-entry__title">
+        Baichuan-M2: Scaling Medical Capability with Large Verifier System
+      </h3>
+      <p class="publication-entry__venue"><em>The toppest open-source medical model in the world (Aug 2025)</em></p>
+      <div class="publication-links">
+        <a class="publication-links__link" href="https://arxiv.org/pdf/2509.02208" target="_blank" rel="noopener">[pdf]</a>
+        <a class="publication-links__link" href="https://github.com/baichuan-inc/Baichuan-M2-32B" target="_blank" rel="noopener">[github]</a>
+        <a class="publication-links__link" href="https://huggingface.co/baichuan-inc/Baichuan-M2-32B" target="_blank" rel="noopener">[huggingface]</a>
+      </div>
+    </article>
+  </li>
+</ul>
