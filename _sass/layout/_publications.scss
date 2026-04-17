@@ -30,6 +30,33 @@
   margin-bottom: 1.1rem;
 }
 
+.publications-list--bulleted {
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+
+.publications-list--bulleted .publications-list__item {
+  margin-bottom: 0.8rem;
+  padding-left: 0.1rem;
+}
+
+.publications-list--bulleted .publication-entry {
+  gap: 0.08rem;
+}
+
+.publications-list--bulleted .publication-entry__title,
+.publications-list--bulleted .publication-entry__authors,
+.publications-list--bulleted .publication-entry__venue,
+.publications-list--bulleted .publication-links,
+.publications-list--bulleted .publication-links__link,
+.publications-list--bulleted .publication-links__details summary {
+  line-height: 1.18;
+}
+
+.publications-list--bulleted .publication-links {
+  margin-top: 0.05rem;
+}
+
 .publication-entry {
   display: flex;
   flex-direction: column;

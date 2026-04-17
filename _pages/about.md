@@ -12,7 +12,7 @@ redirect_from:
   <p>My research interests include trustworthy AI, adversarial robustness, and generative model safety.</p>
 </div>
 
-<h2 class="homepage-section-title"><i class="fa fa-trophy" aria-hidden="true"></i> Academic Performance</h2>
+<h2 class="homepage-section-title"><i class="fa-regular fa-hundred-points" style="color: rgb(246, 35, 35);"></i> Academic Performance</h2>
 
 <p><strong>Undergraduate</strong></p>
 <ul>
@@ -56,13 +56,13 @@ redirect_from:
 
 </ul>
 
-<h2 class="homepage-section-title">📝 Publications</h2>
+<h2 class="homepage-section-title">📝 Papers</h2>
 
 {% assign sorted_publications = site.publications | sort: "date" | reverse %}
-<div class="publications-list">
+<ul class="publications-list publications-list--bulleted">
 {% for post in sorted_publications %}
-  <div class="publications-list__item">
+  <li class="publications-list__item">
     {% include publication-item.html item=post %}
-  </div>
+  </li>
 {% endfor %}
-</div>
+</ul>
