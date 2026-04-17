@@ -60,10 +60,25 @@ redirect_from:
 <p class="publications-note">(* Equal Contribution and # Student First Author)</p>
 
 {% assign sorted_publications = site.publications | sort: "date" | reverse %}
+
+<p><strong>Accepted</strong></p>
 <ul class="publications-list publications-list--bulleted">
 {% for post in sorted_publications %}
+  {% unless post.status == "preprint" %}
   <li class="publications-list__item">
     {% include publication-item.html item=post %}
   </li>
+  {% endunless %}
+{% endfor %}
+</ul>
+
+<p><strong>Preprint</strong></p>
+<ul class="publications-list publications-list--bulleted">
+{% for post in sorted_publications %}
+  {% if post.status == "preprint" %}
+  <li class="publications-list__item">
+    {% include publication-item.html item=post %}
+  </li>
+  {% endif %}
 {% endfor %}
 </ul>
