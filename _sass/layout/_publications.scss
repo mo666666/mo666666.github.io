@@ -96,6 +96,14 @@
   font-weight: 700;
 }
 
+.publication-entry__authors sup {
+  font-size: 0.9em;
+  font-weight: 700;
+  line-height: 0;
+  vertical-align: super;
+  margin-left: 0.05em;
+}
+
 .publication-entry__venue {
   color: var(--global-text-color);
 }
