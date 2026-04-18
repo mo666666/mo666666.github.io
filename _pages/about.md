@@ -96,6 +96,8 @@ redirect_from:
         <a class="publication-links__link" href="https://arxiv.org/pdf/2602.06570" target="_blank" rel="noopener">[pdf]</a>
         <a class="publication-links__link" href="https://github.com/baichuan-inc/Baichuan-M3-235B" target="_blank" rel="noopener">[github]</a>
         <a class="publication-links__link" href="https://huggingface.co/baichuan-inc/Baichuan-M3-235B" target="_blank" rel="noopener">[huggingface]</a>
+        <a class="publication-links__link" href="https://www.baichuan-ai.com/blog/baichuan-M3" target="_blank" rel="noopener">[blog]</a>
+        <button type="button" class="publication-links__link publication-links__bib-trigger" data-bib="@article{dou2026baichuan,&#10;  title={Baichuan-M3: Modeling Clinical Inquiry for Reliable Medical Decision-Making},&#10;  author={Dou, Chengfeng and Yang, Fan and Li, Fei and Jia, Jiyuan and Ju, Qiang and Wang, Shuai and Li, Tianpeng and Zeng, Xiangrong and Zhou, Yijie and Zhang, Hongda and others},&#10;  journal={arXiv preprint arXiv:2602.06570},&#10;  year={2026}&#10;}" data-bib-title="Baichuan-M3: Modeling Clinical Inquiry for Reliable Medical Decision-Making">[bib]</button>
       </div>
     </article>
   </li>
@@ -109,6 +111,8 @@ redirect_from:
         <a class="publication-links__link" href="https://arxiv.org/pdf/2509.02208" target="_blank" rel="noopener">[pdf]</a>
         <a class="publication-links__link" href="https://github.com/baichuan-inc/Baichuan-M2-32B" target="_blank" rel="noopener">[github]</a>
         <a class="publication-links__link" href="https://huggingface.co/baichuan-inc/Baichuan-M2-32B" target="_blank" rel="noopener">[huggingface]</a>
+        <a class="publication-links__link" href="https://www.baichuan-ai.com/blog/baichuan-M2" target="_blank" rel="noopener">[blog]</a>
+        <button type="button" class="publication-links__link publication-links__bib-trigger" data-bib="@article{dou2025baichuan,&#10;  title={Baichuan-m2: Scaling medical capability with large verifier system},&#10;  author={Dou, Chengfeng and Liu, Chong and Yang, Fan and Li, Fei and Jia, Jiyuan and Chen, Mingyang and Ju, Qiang and Wang, Shuai and Dang, Shunya and Li, Tianpeng and others},&#10;  journal={arXiv preprint arXiv:2509.02208},&#10;  year={2025}&#10;}" data-bib-title="Baichuan-M2: Scaling Medical Capability with Large Verifier System">[bib]</button>
       </div>
     </article>
   </li>
@@ -118,6 +122,8 @@ redirect_from:
 
 <ul>
   <li><strong>Reviewer</strong>: NeurIPS 2023/2024/2025; ICLR 2024/2025/2026; ICML 2024/2025/2026; CVPR 2025/2026; ICCV 2025; IJCAI 2024; AAAI 2025/2026; AISTATS 2025; ECCV 2026</li>
-  <li><strong>Top Reviewer</strong> of NeurIPS 2023/2024/2025</li>
+  <li><strong>Top Reviewer</strong> of NeurIPS 2023 (<strong style="color: #8B0000;">Top 10.49%</strong>)</li>
+  <li><strong>Top Reviewer</strong> of NeurIPS 2024 (<strong style="color: #8B0000;">Top 8.60%</strong>)</li>
+  <li><strong>Top Reviewer</strong> of NeurIPS 2025 (<strong style="color: #8B0000;">Top 8.02%</strong>)</li>
   <li><strong>Notable Reviewer</strong> of ICLR 2025 (<strong style="color: #8B0000;">Top 3%</strong>)</li>
 </ul>
