@@ -33,7 +33,7 @@ author_profile: true
   <li>2019.12 国家奖学金（<strong style="color: #8B0000;">前 1%</strong>）</li>
   <li>2020.12 国家奖学金（<strong style="color: #8B0000;">前 1%</strong>）</li>
   <li>2021.12 潍柴动力奖学金</li>
-  <li>2022.05 优秀寝室（D24 401）</li>
+  <li>2022.05 杰出寝室（D24 401）</li>
   <li>2022.06 上海市优秀毕业生（<strong style="color: #8B0000;">前 3%</strong>）</li>
   <li>2022.06 上海交通大学优秀本科毕业论文（<strong style="color: #8B0000;">前 1%</strong>，1/128）</li>
 </ul>
