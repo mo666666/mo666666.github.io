@@ -1,6 +1,6 @@
 ---
 permalink: /zh/
-title: ""
+title: "莫易川 - Homepage"
 author_profile: true
 ---
 
@@ -45,7 +45,7 @@ author_profile: true
    <li>2023.09 北京大学三好学生</li>
    <li>2024.09 ‌罗岳华奖学金</li>
    <li>2024.09 北京大学优秀科研奖</li>
-  <li>2025.04 学术之星提名（<strong style="color: #8B0000;">五位研究生/年</strong>）</li>
+  <li>2025.04 学术智星提名（<strong style="color: #8B0000;">五位研究生/年</strong>）</li>
   <li>2025.11 <a href="https://mp.weixin.qq.com/s/2f75EA4WrAkxEw2N8lQ6zA">淘天奖学金</a>（<strong style="color: #8B0000;">八位研究生/年</strong>）</li>
   <li>2026.04 <a href="https://mp.weixin.qq.com/s/0o5mH7wNe_JpQ994gPrQZg">Optiver AI 博士奖学金</a>（<strong style="color: #8B0000;">全国仅六位博士生/年</strong>）</li>
 

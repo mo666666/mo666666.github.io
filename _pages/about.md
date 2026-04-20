@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Yichuan Mo - Homepage"
 author_profile: true
 redirect_from:
   - /about/
