@@ -9,7 +9,7 @@ redirect_from:
 
 <div class="homepage-intro">
   <p>I am a fourth-year PhD candidate at Peking University, working on safety alignment and the development of next-generation large language models.</p>
-  <p>My research interests include trustworthy AI, adversarial robustness, and generative model safety.</p>
+  <!-- <p>My research interests include trustworthy AI, adversarial robustness, and generative model safety.</p> -->
 </div>
 
 <h2 class="homepage-section-title">💯 Academic Performance</h2>

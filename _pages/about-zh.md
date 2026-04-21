@@ -6,7 +6,7 @@ author_profile: true
 
 <div class="homepage-intro">
   <p>我是北京大学四年级博士研究生，研究方向为安全对齐以及新一代大语言模型的研发。</p>
-  <p>我的研究兴趣包括可信人工智能、对抗鲁棒性以及生成式模型安全。</p>
+  <!-- <p>我的研究兴趣包括可信人工智能、对抗鲁棒性以及生成式模型安全。</p> -->
 </div>
 
 <h2 class="homepage-section-title">💯 学业成绩</h2>
