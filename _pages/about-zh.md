@@ -38,7 +38,7 @@ author_profile: true
   <li>2022.06 上海交通大学优秀本科毕业论文（<strong style="color: #8B0000;">前 1%</strong>，1/128）</li>
 </ul>
 
-<p><strong>研究生阶段</strong></p>
+<p><strong>博士阶段</strong></p>
 <ul>
    <li>2023.12 阳光寝室</li>
    <li>2023.09 小米一等奖学金</li>
