@@ -79,3 +79,23 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
+
+.masthead__badge {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 0.35rem;
+  font-family: $sans-serif;
+  color: var(--global-text-color);
+}
+
+.masthead__badge-icon {
+  flex: none;
+  width: 1.45rem;
+  height: 1.45rem;
+}
+
+.masthead__badge-text {
+  font-size: 0.9rem;
+  line-height: 1.25;
+}

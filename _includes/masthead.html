@@ -25,5 +25,19 @@
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    {% if site.masthead_badge_text %}
+      <div class="masthead__badge">
+        {% if site.masthead_badge_icon %}
+          <img
+            class="masthead__badge-icon"
+            src="{{ site.masthead_badge_icon | prepend: '/images/' | prepend: base_path }}"
+            alt="Peking University seal"
+            loading="lazy"
+            decoding="async"
+          />
+        {% endif %}
+        <span class="masthead__badge-text">{{ site.masthead_badge_text }}</span>
+      </div>
+    {% endif %}
   </div>
 </div>

@@ -9,10 +9,12 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Homepage of Yichuan Mo"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Yichuan Mo"
 description              : &description "Yichuan Mo is a fourth-year Ph.D. candidate at Peking University."   # Update this with a general description of your site, this is the default if not overridden by a page
+masthead_badge_text      : "Ph.D. Candidate at Peking University"
+masthead_badge_icon      : "pku-seal.svg"
 url                      : "https://mo666666.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,11 +26,11 @@ repository               : "mo666666/mo666666.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Hi! I am Yichuan Mo,"
+  name             : "Hi, I am Yichuan Mo!"
   highlight_name   : "Yichuan Mo"
   pronouns         : # example: "she/her"  
-  bio              : 'a Ph.D. candidate in '  # "|" = optional wrap before; tail + seal stay on one line
-  bio_seal         : "pku-seal.svg"   # optional; file in /images/ (inline after bio)
+  bio              : #'a Ph.D. candidate in '  # "|" = optional wrap before; tail + seal stay on one line
+  bio_seal         : # "pku-seal.svg"   # optional; file in /images/ (inline after bio)
   location         :
   employer         :
   uri              : # URL
