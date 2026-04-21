@@ -52,9 +52,7 @@
   gap: 0.5em;
 }
 
-.publications-list--bulleted .publication-entry__title,
-.publications-list--bulleted .publication-entry__authors,
-.publications-list--bulleted .publication-entry__venue,
+/* Title/authors/venue keep line-height 1.28; links stay compact. */
 .publications-list--bulleted .publication-links,
 .publications-list--bulleted .publication-links__link,
 .publications-list--bulleted .publication-links__details summary {
