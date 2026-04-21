@@ -93,11 +93,11 @@ redirect_from:
       </h3>
       <p class="publication-entry__venue"><em>The <span style="color: #cc0000;">toppest medical model</span> in the world (Jan 2026)</em></p>
       <div class="publication-links">
-        <a class="publication-links__link" href="https://arxiv.org/pdf/2602.06570" target="_blank" rel="noopener">[pdf]</a>
+        <a class="publication-links__link" href="https://arxiv.org/pdf/2602.06570" target="_blank" rel="noopener">[PDF]</a>
         <a class="publication-links__link" href="https://github.com/baichuan-inc/Baichuan-M3-235B" target="_blank" rel="noopener">[github]</a>
         <a class="publication-links__link" href="https://huggingface.co/baichuan-inc/Baichuan-M3-235B" target="_blank" rel="noopener">[huggingface]</a>
         <a class="publication-links__link" href="https://www.baichuan-ai.com/blog/baichuan-M3" target="_blank" rel="noopener">[blog]</a>
-        <button type="button" class="publication-links__link publication-links__bib-trigger" data-bib="@article{dou2026baichuan,&#10;  title={Baichuan-M3: Modeling Clinical Inquiry for Reliable Medical Decision-Making},&#10;  author={Dou, Chengfeng and Yang, Fan and Li, Fei and Jia, Jiyuan and Ju, Qiang and Wang, Shuai and Li, Tianpeng and Zeng, Xiangrong and Zhou, Yijie and Zhang, Hongda and others},&#10;  journal={arXiv preprint arXiv:2602.06570},&#10;  year={2026}&#10;}" data-bib-title="Baichuan-M3: Modeling Clinical Inquiry for Reliable Medical Decision-Making">[bib]</button>
+        <button type="button" class="publication-links__link publication-links__bib-trigger" data-bib="@article{dou2026baichuan,&#10;  title={Baichuan-M3: Modeling Clinical Inquiry for Reliable Medical Decision-Making},&#10;  author={Dou, Chengfeng and Yang, Fan and Li, Fei and Jia, Jiyuan and Ju, Qiang and Wang, Shuai and Li, Tianpeng and Zeng, Xiangrong and Zhou, Yijie and Zhang, Hongda and others},&#10;  journal={arXiv preprint arXiv:2602.06570},&#10;  year={2026}&#10;}" data-bib-title="Baichuan-M3: Modeling Clinical Inquiry for Reliable Medical Decision-Making">[Bib]</button>
       </div>
     </article>
   </li>
@@ -108,11 +108,11 @@ redirect_from:
       </h3>
       <p class="publication-entry__venue"><em>The <span style="color: #cc0000;">toppest open-source medical model</span> in the world (Aug 2025)</em></p>
       <div class="publication-links">
-        <a class="publication-links__link" href="https://arxiv.org/pdf/2509.02208" target="_blank" rel="noopener">[pdf]</a>
+        <a class="publication-links__link" href="https://arxiv.org/pdf/2509.02208" target="_blank" rel="noopener">[PDF]</a>
         <a class="publication-links__link" href="https://github.com/baichuan-inc/Baichuan-M2-32B" target="_blank" rel="noopener">[github]</a>
         <a class="publication-links__link" href="https://huggingface.co/baichuan-inc/Baichuan-M2-32B" target="_blank" rel="noopener">[huggingface]</a>
         <a class="publication-links__link" href="https://www.baichuan-ai.com/blog/baichuan-M2" target="_blank" rel="noopener">[blog]</a>
-        <button type="button" class="publication-links__link publication-links__bib-trigger" data-bib="@article{dou2025baichuan,&#10;  title={Baichuan-m2: Scaling medical capability with large verifier system},&#10;  author={Dou, Chengfeng and Liu, Chong and Yang, Fan and Li, Fei and Jia, Jiyuan and Chen, Mingyang and Ju, Qiang and Wang, Shuai and Dang, Shunya and Li, Tianpeng and others},&#10;  journal={arXiv preprint arXiv:2509.02208},&#10;  year={2025}&#10;}" data-bib-title="Baichuan-M2: Scaling Medical Capability with Large Verifier System">[bib]</button>
+        <button type="button" class="publication-links__link publication-links__bib-trigger" data-bib="@article{dou2025baichuan,&#10;  title={Baichuan-m2: Scaling medical capability with large verifier system},&#10;  author={Dou, Chengfeng and Liu, Chong and Yang, Fan and Li, Fei and Jia, Jiyuan and Chen, Mingyang and Ju, Qiang and Wang, Shuai and Dang, Shunya and Li, Tianpeng and others},&#10;  journal={arXiv preprint arXiv:2509.02208},&#10;  year={2025}&#10;}" data-bib-title="Baichuan-M2: Scaling Medical Capability with Large Verifier System">[Bib]</button>
       </div>
     </article>
   </li>
