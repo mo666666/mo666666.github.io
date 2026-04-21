@@ -17,7 +17,14 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.bio %}
+      <p class="author__bio">
+        {{ author.bio }}
+        {% if author.bio_seal %}
+          <img class="author__bio-seal" src="{{ author.bio_seal | prepend: '/images/' | prepend: base_path }}" alt="北京大学校徽" loading="lazy" decoding="async" />
+        {% endif %}
+      </p>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">

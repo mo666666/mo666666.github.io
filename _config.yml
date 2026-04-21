@@ -24,10 +24,11 @@ repository               : "mo666666/mo666666.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Hi! I am Yichuan Mo/莫易川."
+  name             : "Hi! I am Yichuan Mo."
   highlight_name   : "Yichuan Mo"
   pronouns         : # example: "she/her"  
-  bio              : 'Ph.D. candidate in School of Intelligence Science and Technology, Peking University'
+  bio              : 'A Ph.D. candidate in Peking University'
+  bio_seal         : "pku-seal.svg"   # optional; file in /images/ (inline after bio)
   location         :
   employer         :
   uri              : # URL
