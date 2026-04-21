@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yichuan Mo (莫易川) - Homepage"
+title                    : "Homepage of Yichuan Mo"
 title_separator          : "-"
 name                     : &name "Yichuan Mo"
 description              : &description "Yichuan Mo is a fourth-year Ph.D. candidate at Peking University."   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -28,8 +28,8 @@ author:
   highlight_name   : "Yichuan Mo"
   pronouns         : # example: "she/her"  
   bio              : 'Ph.D. candidate in School of Intelligence Science and Technology, Peking University'
-  location         : "Beijing"
-  employer         : "Peking University"
+  location         :
+  employer         :
   uri              : # URL
   email            : "mo666666@stu.pku.edu.cn" 
 
@@ -39,7 +39,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=xvSYG1gAAAAJ&hl=zh-CN"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0002-2663-2052"
+  orcid            :
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
