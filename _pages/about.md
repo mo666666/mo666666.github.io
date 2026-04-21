@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yichuan Mo - Homepage"
+title: "Welcome to Yichuan Mo's Homepage! 👏"
 author_profile: true
 redirect_from:
   - /about/
