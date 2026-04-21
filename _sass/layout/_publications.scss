@@ -52,11 +52,11 @@
   gap: 0.5em;
 }
 
-/* Title/authors/venue keep line-height 1.28; links stay compact. */
+/* Keep wrapped lines consistent across title/authors/venue/links. */
 .publications-list--bulleted .publication-links,
 .publications-list--bulleted .publication-links__link,
 .publications-list--bulleted .publication-links__details summary {
-  line-height: 1.0;
+  line-height: 1.3;
 }
 
 .publications-list--bulleted .publication-links {
@@ -73,7 +73,7 @@
   margin: 0;
   font-size: 0.88rem;
   font-weight: 700;
-  line-height: 1.28;
+  line-height: 1.3;
   text-wrap: balance;
 }
 
@@ -83,7 +83,7 @@
 .page__content .publication-entry__venue {
   margin: 0;
   font-size: 0.85rem;
-  line-height: 1.28;
+  line-height: 1.3;
 }
 
 .publication-entry__authors {
@@ -120,7 +120,7 @@
   column-gap: 0.4rem;
   row-gap: 0;
   margin-top: 0;
-  line-height: 1.28;
+  line-height: 1.3;
 }
 
 .publication-links__link {
@@ -131,7 +131,7 @@
   color: var(--global-text-color);
   font-family: inherit;
   font-size: 0.82rem;
-  line-height: 1.28;
+  line-height: 1.3;
   text-decoration: none;
   cursor: pointer;
   vertical-align: baseline;
