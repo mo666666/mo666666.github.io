@@ -27,7 +27,7 @@ author:
   name             : "Hi! I am Yichuan Mo."
   highlight_name   : "Yichuan Mo"
   pronouns         : # example: "she/her"  
-  bio              : 'A Ph.D. candidate in Peking University'
+  bio              : 'A Ph.D. candidate in|Peking University'  # "|" = optional wrap before; tail + seal stay on one line
   bio_seal         : "pku-seal.svg"   # optional; file in /images/ (inline after bio)
   location         :
   employer         :

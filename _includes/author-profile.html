@@ -19,9 +19,11 @@
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}
       <p class="author__bio">
-        {{ author.bio }}
-        {% if author.bio_seal %}
-          <img class="author__bio-seal" src="{{ author.bio_seal | prepend: '/images/' | prepend: base_path }}" alt="北京大学校徽" loading="lazy" decoding="async" />
+        {% if author.bio contains '|' %}
+          {% assign bio_parts = author.bio | split: '|' %}
+          {{ bio_parts[0] | strip }} <span class="author__bio-nowrap">{{ bio_parts[1] | strip }}{% if author.bio_seal %}<img class="author__bio-seal" src="{{ author.bio_seal | prepend: '/images/' | prepend: base_path }}" alt="北京大学校徽" loading="lazy" decoding="async" />{% endif %}</span>
+        {% else %}
+          {{ author.bio }}{% if author.bio_seal %}<img class="author__bio-seal" src="{{ author.bio_seal | prepend: '/images/' | prepend: base_path }}" alt="北京大学校徽" loading="lazy" decoding="async" />{% endif %}
         {% endif %}
       </p>
     {% endif %}
