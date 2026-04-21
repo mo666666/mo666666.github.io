@@ -189,7 +189,7 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   font-weight: 700;
   line-height: 1.5;
 }
@@ -218,7 +218,7 @@
 }
 
 .sidebar .author__bio {
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   line-height: 1.5;
 }
 
@@ -285,7 +285,7 @@
     margin-bottom: 0;
     padding: 0;
     color: inherit;
-    font-size: 0.95rem;
+    font-size: 0.88rem;
     text-decoration: none;
 
     &:hover {
@@ -308,6 +308,6 @@
 
 .author__scholar-count {
   color: var(--global-text-color-light);
-  font-size: 0.92rem;
+  font-size: 0.86rem;
   white-space: nowrap;
 }
