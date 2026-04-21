@@ -4,6 +4,8 @@
 {% assign slides_url = publication.slidesurl %}
 {% assign code_url = publication.code | default: publication.codeurl %}
 {% assign project_url = publication.project | default: publication.projecturl %}
+{% assign extra_url = publication.extraurl | default: publication.blogurl %}
+{% assign extra_label = publication.extralabel | default: publication.bloglabel | default: "extra" %}
 {% assign bib_content = publication.bib | default: publication.bibtex %}
 {% assign bibtex_url = publication.biburl | default: publication.bibtexurl %}
 {% capture _bib_newline %}
@@ -13,7 +15,7 @@
 {% endif %}
 
 {% assign has_actions = false %}
-{% if pdf_url or slides_url or code_url or project_url or bibtex_url or bib_content %}
+{% if pdf_url or slides_url or code_url or project_url or extra_url or bibtex_url or bib_content %}
   {% assign has_actions = true %}
 {% endif %}
 
@@ -33,6 +35,10 @@
 
     {% if project_url %}
       <a class="publication-links__link" href="{% if project_url contains '://' %}{{ project_url }}{% else %}{{ project_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">[project]</a>
+    {% endif %}
+
+    {% if extra_url %}
+      <a class="publication-links__link" href="{% if extra_url contains '://' %}{{ extra_url }}{% else %}{{ extra_url | prepend: base_path }}{% endif %}" target="_blank" rel="noopener">[{{ extra_label }}]</a>
     {% endif %}
 
     {% if bib_content %}

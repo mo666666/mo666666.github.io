@@ -3,10 +3,12 @@ title: "Jailbreak and Guard Aligned Language Models with Only Few In-Context Dem
 collection: publications
 category: manuscripts
 permalink: /publication/2026-jailbreak-and-guard-aligned-language-models
-venue: 'TPAMI 2026 <span style="color: #cc0000;">(Featured and Scaled up by Anthropic)</span>'
+venue: 'TPAMI 2026 <span style="color: #cc0000;">(Scaled up by Anthropic)</span>'
 citation: 'Zeming Wei, Yifei Wang, Li Ang, Yichuan Mo, and Yisen Wang. (2026). &quot;Jailbreak and Guard Aligned Language Models with Only Few In-Context Demonstrations.&quot; <i>TPAMI 2026</i>.'
 pdf: https://arxiv.org/pdf/2310.06387
 code: https://github.com/PKU-ML/adv-icl
+bloglabel: Anthropic Blog
+blogurl: https://www.anthropic.com/research/many-shot-jailbreaking
 bib: |
   @article{wei2026jailbreak,
     title = {Jailbreak and Guard Aligned Language Models with Only Few In-Context Demonstrations},
