@@ -3,7 +3,7 @@ title: "TERD: A Unified Framework for Safeguarding Diffusion Models Against Back
 collection: publications
 category: conferences
 permalink: /publication/2024-terd-diffusion-backdoor-defense
-venue: 'ICML 2024 <span style="color: #cc0000;">(The first backdoor input detection approach for diffusion models)</span>'
+venue: 'ICML 2024 <span style="color: #cc0000;">（首个面向扩散模型的后门输入检测方法）</span>'
 citation: 'Yichuan Mo, Hui Huang, Mingjie Li, Ang Li, and Yisen Wang. (2024). &quot;TERD: A Unified Framework for Safeguarding Diffusion Models Against Backdoors.&quot; <i>ICML 2024</i>.'
 pdf: https://proceedings.mlr.press/v235/mo24a.html
 code: https://github.com/PKU-ML/TERD
