@@ -21,6 +21,85 @@
   font-size: 0.92em;
 }
 
+.homepage-education {
+  margin: 0 0 1.25rem;
+  padding: 0;
+  list-style: none;
+}
+
+.homepage-education__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  margin-bottom: 1.35rem;
+}
+
+.homepage-education__item:last-child {
+  margin-bottom: 0;
+}
+
+.homepage-education__logo {
+  flex: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--global-code-background-color, #f5f5f5);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06);
+}
+
+.homepage-education__logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.homepage-education__body {
+  flex: 1;
+  min-width: 0;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--global-text-color);
+}
+
+.homepage-education__school {
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1.3;
+  margin: 0 0 0.2rem;
+}
+
+.homepage-education__dept {
+  margin: 0 0 0.35rem;
+  font-size: 0.92rem;
+  color: var(--global-text-color);
+  opacity: 0.92;
+}
+
+.homepage-education__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.35rem 1rem;
+  font-size: 0.92rem;
+}
+
+.homepage-education__degree {
+  font-weight: 500;
+}
+
+.homepage-education__dates {
+  margin-left: auto;
+  text-align: right;
+  white-space: nowrap;
+  color: var(--global-text-color);
+  opacity: 0.88;
+}
+
 .publications-note,
 .page__content .publications-note {
   margin: -0.6rem 0 1rem;

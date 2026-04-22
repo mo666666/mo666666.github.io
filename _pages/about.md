@@ -12,6 +12,38 @@ redirect_from:
   <!-- <p>My research interests include trustworthy AI, adversarial robustness, and generative model safety.</p> -->
 </div>
 
+{% include base_path %}
+
+<h2 class="homepage-section-title">🎓 Education</h2>
+<ul class="homepage-education">
+  <li class="homepage-education__item">
+    <div class="homepage-education__logo">
+      <img src="{{ base_path }}/images/pku-seal.svg" width="48" height="48" alt="Peking University" loading="lazy" decoding="async" />
+    </div>
+    <div class="homepage-education__body">
+      <div class="homepage-education__school">Peking University</div>
+      <div class="homepage-education__dept">School of Intelligence Science and Technology</div>
+      <div class="homepage-education__row">
+        <span class="homepage-education__degree">Ph.D. Candidate</span>
+        <span class="homepage-education__dates">Sep. 2022 – Until Now</span>
+      </div>
+    </div>
+  </li>
+  <li class="homepage-education__item">
+    <div class="homepage-education__logo">
+      <img src="{{ base_path }}/images/sjtu-seal.svg" width="48" height="48" alt="Shanghai Jiao Tong University" loading="lazy" decoding="async" />
+    </div>
+    <div class="homepage-education__body">
+      <div class="homepage-education__school">Shanghai Jiao Tong University</div>
+      <div class="homepage-education__dept">School of Computer Science</div>
+      <div class="homepage-education__row">
+        <span class="homepage-education__degree">Bachelor Degree</span>
+        <span class="homepage-education__dates">Sep. 2018 – Jul. 2022</span>
+      </div>
+    </div>
+  </li>
+</ul>
+
 <h2 class="homepage-section-title">💯 Academic Performance</h2>
 
 <p><strong>Undergraduate</strong></p>
