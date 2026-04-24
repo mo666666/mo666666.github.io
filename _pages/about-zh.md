@@ -7,7 +7,7 @@ author_profile: true
 <div class="homepage-intro">
   <p>我是北京大学智能科学与技术学院 <a href="https://zero-lab-pku.github.io/">ZERO Lab</a> 的四年级博士研究生，导师为<a href="https://yisenwang.github.io/">王奕森</a>助理教授。2022 年，我于上海交通大学取得本科学位，期间受<a href="https://www.cs.sjtu.edu.cn/en/jiaoshiml/wangshilin.html">王士林</a>教授和<a href="https://thinklab.sjtu.edu.cn/index.html">严骏驰</a>教授的共同指导。</p>
   <p>我的研究方向聚焦于深度学习模型的安全对齐，尤其是针对大语言模型以及基于扩散的图像／文本生成模型（引用逾 <a href="https://scholar.google.com/citations?user=xvSYG1gAAAAJ&hl=zh-CN" target="_blank" rel="noopener"><strong style="color: #8B0000;">890 次</strong></a>）。同时，我致力于探索下一代语言模型范式，涵盖模型架构、后训练及解码策略。近期，我尤其关注语言扩散模型，并探索其与传统自回归框架的融合可能性。</p>
-  <p>我是一个积极乐观、友善的人，享受在日常生活中发现小确幸并感到快乐。我尤其热爱运动，特别是羽毛球、游泳和跑步。我的长远愿景是构建安全的通用人工智能（AGI）系统，使其能够持续、可靠地造福全人类。面对日新月异的 AI 技术，我始终保持谦虚的心态学习新知识，也乐于迎接新的挑战。</p>
+  <p>我是一个积极乐观、友善的人，享受在日常生活中发现小确幸并感到快乐。我尤其热爱运动，特别是羽毛球、游泳和跑步。我的长远愿景是构建安全的通用人工智能（AGI）系统，使其能够持续、可靠地造福全人类。面对日新月异的 AI 技术，我始终保持谦虚的心态向各位同行学习，也乐于迎接新的挑战。</p>
 </div>
 
 {% include base_path %}

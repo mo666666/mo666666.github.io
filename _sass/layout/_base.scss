@@ -18,6 +18,11 @@ body {
   font-family: $global-font-family;
   line-height: 1.5;
 
+  /* On mobile the masthead is shorter; reduce top gap */
+  @media screen and (max-width: 1023px) {
+    padding-top: 48px;
+  }
+
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
