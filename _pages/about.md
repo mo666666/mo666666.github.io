@@ -156,3 +156,39 @@ redirect_from:
   <li><strong>Top Reviewer</strong> of NeurIPS 2025 (<strong style="color: #8B0000;">Top 8.02%</strong>)</li>
   <li><strong>Notable Reviewer</strong> of ICLR 2025 (<strong style="color: #8B0000;">Top 3%</strong>)</li>
 </ul>
+
+<h2 class="homepage-section-title">🔗 Links</h2>
+<p class="publications-note">(Alphabetical Order)</p>
+
+<p><strong>My Best Friends</strong></p>
+<ul>
+  <li>
+    <a href="https://hygeng.site/">Haoyu Geng</a>,
+    <a href="https://sites.google.com/view/zetianjiang">Zetian Jiang</a>,
+    <a href="https://scholar.google.com/citations?user=84eGSkUAAAAJ&hl=en">Danning Lao</a>,
+    <a href="https://yangco-le.github.io/">Yang Li</a>,
+    <a href="https://only-changer.github.io/">Chang Liu</a>,
+    <a href="https://scholar.google.com/citations?user=HESzE0UAAAAJ&hl=zh-CN">Han Lu</a>,
+    <a href="https://lucky-lance.github.io/">Xudong Lu</a>,
+    <a href="https://pattern.swarma.org/user/132466">Qibing Ren</a>,
+    <a href="https://scholar.google.com/citations?user=MdVoyiYAAAAJ&hl=en">Yuji Wang</a>,
+    <a href="https://yangnianzu0515.github.io/">Nianzu Yang</a>
+  </li>
+</ul>
+
+<p><strong>My Best Labmates</strong></p>
+<ul>
+  <li>
+    <a href="https://scholar.google.com/citations?user=N-rN5JAAAAAJ&hl=en">Jingyi Cui</a>,
+    <a href="https://scholar.google.com/citations?user=nQjREpoAAAAJ&hl=en">Tianqi Du</a>,
+    <a href="https://scholar.google.com/citations?user=rSvC2BQAAAAJ&hl=zh-CN">Lizhe Fang</a>,
+    <a href="https://scholar.google.com/citations?user=ZCTpnDIAAAAJ&hl=zh-CN">Xiaojun Guo</a>,
+    <a href="https://mingjieli0111.github.io/">Mingjie Li</a>,
+    <a href="https://scholar.google.com/citations?user=uzcDmbgAAAAJ&hl=zh-CN&oi=ao">Ykang Li</a>,
+    <a href="https://yifeiwang77.com/">Yifei Wang</a>,
+    <a href="https://weizeming.github.io/">Zeming Wei</a>,
+    <a href="https://scholar.google.com/citations?user=u8bouz4AAAAJ&hl=zh-CN&oi=ao">Pengyun Yue</a>,
+    <a href="https://scholar.google.com/citations?user=xU3eM_QAAAAJ&hl=en">Qi Zhang</a>,
+    <a href="https://scholar.google.com/citations?hl=zh-CN&user=t47ZlRsAAAAJ">Yige Zhang</a>
+  </li>
+</ul>
