@@ -18,14 +18,10 @@ author_profile: true
       <img src="{{ base_path }}/images/pku-seal.svg" alt="北京大学" loading="lazy" decoding="async" />
     </div>
     <div class="homepage-education__body">
-      <div class="homepage-education__header">
-        <span class="homepage-education__school">北京大学</span>
-        <span class="homepage-education__dates">2022年9月 – 至今</span>
-      </div>
-      <div class="homepage-education__meta">
-        <span class="homepage-education__degree">博士研究生</span>
-        <span class="homepage-education__dept">智能科学与技术学院</span>
-      </div>
+      <div class="homepage-education__school">北京大学</div>
+      <div class="homepage-education__dates">2022年9月 – 至今</div>
+      <div class="homepage-education__degree">博士研究生</div>
+      <div class="homepage-education__dept">智能科学与技术学院</div>
     </div>
   </li>
   <li class="homepage-education__item">
@@ -33,14 +29,10 @@ author_profile: true
       <img src="{{ base_path }}/images/sjtu-seal.png" alt="上海交通大学" loading="lazy" decoding="async" />
     </div>
     <div class="homepage-education__body">
-      <div class="homepage-education__header">
-        <span class="homepage-education__school">上海交通大学</span>
-        <span class="homepage-education__dates">2018年9月 – 2022年7月</span>
-      </div>
-      <div class="homepage-education__meta">
-        <span class="homepage-education__degree">工学学士</span>
-        <span class="homepage-education__dept">计算机学院</span>
-      </div>
+      <div class="homepage-education__school">上海交通大学</div>
+      <div class="homepage-education__dates">2018年9月 – 2022年6月</div>
+      <div class="homepage-education__degree">工学学士</div>
+      <div class="homepage-education__dept">计算机科学与工程学院</div>
     </div>
   </li>
 </ul>

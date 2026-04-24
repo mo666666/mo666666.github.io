@@ -21,14 +21,10 @@ redirect_from:
       <img src="{{ base_path }}/images/pku-seal.svg" alt="Peking University" loading="lazy" decoding="async" />
     </div>
     <div class="homepage-education__body">
-      <div class="homepage-education__header">
-        <span class="homepage-education__school">Peking University</span>
-        <span class="homepage-education__dates">Sep. 2022 – Present</span>
-      </div>
-      <div class="homepage-education__meta">
-        <span class="homepage-education__degree">Ph.D. Candidate</span>
-        <span class="homepage-education__dept">School of Intelligence Science and Technology</span>
-      </div>
+      <div class="homepage-education__school">Peking University</div>
+      <div class="homepage-education__dates">Sep. 2022 – Present</div>
+      <div class="homepage-education__degree">Ph.D. Candidate</div>
+      <div class="homepage-education__dept">School of Intelligence Science and Technology</div>
     </div>
   </li>
   <li class="homepage-education__item">
@@ -36,14 +32,10 @@ redirect_from:
       <img src="{{ base_path }}/images/sjtu-seal.png" alt="Shanghai Jiao Tong University" loading="lazy" decoding="async" />
     </div>
     <div class="homepage-education__body">
-      <div class="homepage-education__header">
-        <span class="homepage-education__school">Shanghai Jiao Tong University</span>
-        <span class="homepage-education__dates">Sep. 2018 – Jul. 2022</span>
-      </div>
-      <div class="homepage-education__meta">
-        <span class="homepage-education__degree">B.Eng. in Computer Science</span>
-        <span class="homepage-education__dept">School of Computer Science &amp; Engineering</span>
-      </div>
+      <div class="homepage-education__school">Shanghai Jiao Tong University</div>
+      <div class="homepage-education__dates">Sep. 2018 – Jun. 2022</div>
+      <div class="homepage-education__degree">B.Eng.</div>
+      <div class="homepage-education__dept">School of Computer Science</div>
     </div>
   </li>
 </ul>
