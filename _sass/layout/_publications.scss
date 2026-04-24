@@ -81,30 +81,15 @@
   line-height: 1.5;
 }
 
-.homepage-education__school {
-  font-weight: 700;
-  font-size: 0.88rem;
-  line-height: 1.5;
-  margin: 0;
-}
-
-.homepage-education__dates {
-  font-size: 0.88rem;
-  color: var(--global-text-color);
-  opacity: 0.72;
-  font-weight: 400;
-}
-
-.homepage-education__degree {
-  font-weight: 500;
-  font-size: 0.88rem;
-  color: var(--global-text-color);
-}
-
+.homepage-education__school,
+.homepage-education__dates,
+.homepage-education__degree,
 .homepage-education__dept {
   font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.5;
   color: var(--global-text-color);
-  opacity: 0.78;
+  margin: 0;
 }
 
 /* Normalise general body text on homepage to match the papers section size */
