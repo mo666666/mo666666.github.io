@@ -23,7 +23,7 @@ author_profile: true
         <span class="homepage-education__dates">2022年9月 – 至今</span>
       </div>
       <div class="homepage-education__meta">
-        <span class="homepage-education__degree">博士研究生（在读）</span>
+        <span class="homepage-education__degree">博士研究生</span>
         <span class="homepage-education__dept">智能科学与技术学院</span>
       </div>
     </div>
@@ -38,8 +38,8 @@ author_profile: true
         <span class="homepage-education__dates">2018年9月 – 2022年7月</span>
       </div>
       <div class="homepage-education__meta">
-        <span class="homepage-education__degree">工学学士（计算机科学与技术）</span>
-        <span class="homepage-education__dept">计算机科学与工程学院</span>
+        <span class="homepage-education__degree">工学学士</span>
+        <span class="homepage-education__dept">计算机学院</span>
       </div>
     </div>
   </li>
