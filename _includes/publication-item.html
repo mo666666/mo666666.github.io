@@ -22,7 +22,9 @@
     <p class="publication-entry__authors">{{ authors }}</p>
   {% endif %}
 
-  {% if publication.venue %}
+  {% if page.url contains '/zh/' and publication.venue_zh %}
+    <p class="publication-entry__venue"><em>{{ publication.venue_zh }}</em></p>
+  {% elsif publication.venue %}
     <p class="publication-entry__venue"><em>{{ publication.venue }}</em></p>
   {% elsif publication.citation %}
     <p class="publication-entry__venue">{{ publication.citation }}</p>

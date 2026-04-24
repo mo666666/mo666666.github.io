@@ -4,6 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2026-jailbreak-and-guard-aligned-language-models
 venue: 'TPAMI 2026 <span style="color: #8B0000;">(Adopted at scale by Anthropic)</span>'
+venue_zh: 'TPAMI 2026 <span style="color: #8B0000;">（已被 Anthropic 规模化采用）</span>'
 citation: 'Zeming Wei, Yifei Wang, Li Ang, Yichuan Mo, and Yisen Wang. (2026). &quot;Jailbreak and Guard Aligned Language Models with Only Few In-Context Demonstrations.&quot; <i>TPAMI 2026</i>.'
 pdf: https://arxiv.org/pdf/2310.06387
 code: https://github.com/PKU-ML/adv-icl

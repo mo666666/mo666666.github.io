@@ -6,6 +6,7 @@ status: preprint
 permalink: /publication/2025-smarter-llms-safer
 authors: "Ang Li, Yichuan Mo, Mingjie Li, Yifei Wang, and Yisen Wang"
 venue: 'arXiv 2025 <span style="color: #8B0000;">(First to reveal the safety–reasoning capability trade-off)</span>'
+venue_zh: 'arXiv 2025 <span style="color: #8B0000;">（首次揭示安全性与推理能力之间的权衡）</span>'
 citation: 'Ang Li, Yichuan Mo, Mingjie Li, Yifei Wang, and Yisen Wang. (2025). &quot;Are Smarter LLMs Safer? Exploring Safety-Reasoning Trade-offs in Prompting and Fine-Tuning.&quot; <i>arXiv preprint arXiv:2502.09673</i>.'
 pdf: https://arxiv.org/pdf/2502.09673
 bib: |

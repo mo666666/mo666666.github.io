@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2026-generalized-skip-connections-transferability
 authors: "Yisen Wang, Yichuan Mo<sup>#</sup>, Dongxian Wu, Mingjie Li, Xingjun Ma, and Zhouchen Lin"
 venue: 'TPAMI 2026 <span style="color: #8B0000;">(Journal extension of SGM, original paper cited 400+ times on Google Scholar)</span>'
+venue_zh: 'TPAMI 2026 <span style="color: #8B0000;">（SGM 的期刊扩展版，原论文 Google Scholar 引用逾 400 次）</span>'
 citation: 'Yisen Wang, Yichuan Mo, Dongxian Wu, Mingjie Li, Xingjun Ma, and Zhouchen Lin. (2026). &quot;On the Adversarial Transferability of Generalized &quot;Skip Connections&quot;.&quot; <i>TPAMI 2026</i>.'
 pdf: https://ieeexplore.ieee.org/abstract/document/11399637/
 code: https://github.com/mo666666/SGM

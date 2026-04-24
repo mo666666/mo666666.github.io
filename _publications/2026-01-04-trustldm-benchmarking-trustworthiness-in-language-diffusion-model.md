@@ -5,6 +5,7 @@ category: conferences
 permalink: /publication/2026-trustldm-benchmarking-trustworthiness-in-language-diffusion-model
 authors: "Yichuan Mo<sup>*</sup>, Yukun Jiang<sup>*</sup>, Yanbo Shi<sup>*</sup>, Mingjie Li<sup>*</sup>, Michael Backes, Yang Zhang, and Yisen Wang"
 venue: 'ICLR 2026 Trustworthy Workshop <span style="color: #8B0000;">(First benchmark for evaluating trustworthiness of language diffusion models)</span>'
+venue_zh: 'ICLR 2026 Trustworthy Workshop <span style="color: #8B0000;">（首个评估语言扩散模型可信性的基准）</span>'
 citation: 'Yichuan Mo, Yukun Jiang, Yanbo Shi, Mingjie Li, Michael Backes, Yang Zhang, and Yisen Wang. (2026). &quot;TrustLDM: Benchmarking Trustworthiness in Language Diffusion Model.&quot; <i>ICLR 2026 Trustworthy Workshop</i>.'
 pdf: https://openreview.net/forum?id=YhEma5j1gp
 bib: |
