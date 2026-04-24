@@ -36,7 +36,7 @@
   gap: 1.1rem;
   padding: 1rem 1.2rem;
   border-radius: 10px;
-  background: var(--global-code-background-color, #f8f8f8);
+  background: rgba(0, 0, 0, 0.03);
   border: 1px solid var(--global-border-color, rgba(0,0,0,0.08));
   border-left: 4px solid #8B0000;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
@@ -46,6 +46,16 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
     transform: translateY(-1px);
   }
+}
+
+html[data-theme="dark"] .homepage-education__item {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme="dark"] .homepage-education__item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .homepage-education__logo {
