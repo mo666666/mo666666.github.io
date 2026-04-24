@@ -127,7 +127,7 @@ redirect_from:
       <h3 class="publication-entry__title">
         Baichuan-M3: Modeling Clinical Inquiry for Reliable Medical Decision-Making
       </h3>
-      <p class="publication-entry__venue"><em>全球<span style="color: #cc0000;">顶尖医疗大模型</span>（2026 年 1 月）</em></p>
+      <p class="publication-entry__venue"><em>World's <span style="color: #8B0000;">Top Medical AI Model</span> (Jan. 2026)</em></p>
       <div class="publication-links">
         <a class="publication-links__link" href="https://arxiv.org/pdf/2602.06570" target="_blank" rel="noopener">[PDF]</a>
         <a class="publication-links__link" href="https://github.com/baichuan-inc/Baichuan-M3-235B" target="_blank" rel="noopener">[github]</a>
@@ -142,7 +142,7 @@ redirect_from:
       <h3 class="publication-entry__title">
         Baichuan-M2: Scaling Medical Capability with Large Verifier System
       </h3>
-      <p class="publication-entry__venue"><em>全球<span style="color: #cc0000;">顶尖开源医疗大模型</span>（2025 年 8 月）</em></p>
+      <p class="publication-entry__venue"><em>World's <span style="color: #8B0000;">Top Open-Source Medical AI Model</span> (Aug. 2025)</em></p>
       <div class="publication-links">
         <a class="publication-links__link" href="https://arxiv.org/pdf/2509.02208" target="_blank" rel="noopener">[PDF]</a>
         <a class="publication-links__link" href="https://github.com/baichuan-inc/Baichuan-M2-32B" target="_blank" rel="noopener">[github]</a>

@@ -126,6 +126,12 @@
   }
 }
 
+/* Normalise general body text on homepage to match the papers section size */
+.page__content p,
+.page__content li {
+  font-size: 0.9rem;
+}
+
 .publications-note,
 .page__content .publications-note {
   margin: -0.6rem 0 1rem;
