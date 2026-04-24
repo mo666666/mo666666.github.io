@@ -183,7 +183,7 @@ redirect_from:
     <a href="https://yifeiwang77.com/">Yifei Wang</a>,
     <a href="https://weizeming.github.io/">Zeming Wei</a>,
     <a href="https://scholar.google.com/citations?user=u8bouz4AAAAJ&hl=zh-CN&oi=ao">Pengyun Yue</a>,
-    <a href="https://scholar.google.com/citations?user=xU3eM_QAAAAJ&hl=en">Qi Zhang</a>,
+    <a href="https://zhangq327.github.io/">Qi Zhang</a>,
     <a href="https://scholar.google.com/citations?hl=zh-CN&user=t47ZlRsAAAAJ">Yige Zhang</a>
   </li>
 </ul>
