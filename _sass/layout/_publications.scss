@@ -96,6 +96,13 @@
 .page__content p,
 .page__content li {
   font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+/* Tabular figures so YYYY.MM dates align perfectly across list items */
+.page__content ul > li,
+.page__content ol > li {
+  font-variant-numeric: tabular-nums;
 }
 
 .publications-note,
