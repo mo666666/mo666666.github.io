@@ -9,6 +9,38 @@ author_profile: true
   <!-- <p>我的研究兴趣包括可信人工智能、对抗鲁棒性以及生成式模型安全。</p> -->
 </div>
 
+{% include base_path %}
+
+<h2 class="homepage-section-title">🎓 教育经历</h2>
+<ul class="homepage-education">
+  <li class="homepage-education__item">
+    <div class="homepage-education__logo">
+      <img src="{{ base_path }}/images/pku-seal.svg" width="48" height="48" alt="北京大学" loading="lazy" decoding="async" />
+    </div>
+    <div class="homepage-education__body">
+      <div class="homepage-education__school">北京大学</div>
+      <div class="homepage-education__dept">智能科学与技术学院</div>
+      <div class="homepage-education__row">
+        <span class="homepage-education__degree">博士研究生（在读）</span>
+        <span class="homepage-education__dates">2022年9月 – 至今</span>
+      </div>
+    </div>
+  </li>
+  <li class="homepage-education__item">
+    <div class="homepage-education__logo">
+      <img src="{{ base_path }}/images/sjtu-seal.svg" width="48" height="48" alt="上海交通大学" loading="lazy" decoding="async" />
+    </div>
+    <div class="homepage-education__body">
+      <div class="homepage-education__school">上海交通大学</div>
+      <div class="homepage-education__dept">计算机学院</div>
+      <div class="homepage-education__row">
+        <span class="homepage-education__degree">学士学位</span>
+        <span class="homepage-education__dates">2018年9月 – 2022年7月</span>
+      </div>
+    </div>
+  </li>
+</ul>
+
 <h2 class="homepage-section-title">💯 学业成绩</h2>
 
 <p><strong>本科阶段</strong></p>
