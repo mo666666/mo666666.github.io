@@ -11,6 +11,10 @@
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
+  @media screen and (max-width: 1023px) {
+    margin-top: 0.5em;
+  }
+
   @include breakpoint($x-large) {
     max-width: $x-large;
   }
@@ -19,7 +23,7 @@
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);
-    @include prefix(1.5 of 12);
+    @include prefix(1.0 of 12);
     @include suffix(2 of 12);
   }
 
