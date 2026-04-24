@@ -29,7 +29,7 @@ author:
   name             : "Yichuan Mo"
   highlight_name   : "Yichuan Mo"
   pronouns         : # example: "she/her"  
-  bio              : 莫易川 #'a Ph.D. candidate in '  # "|" = optional wrap before; tail + seal stay on one line
+  bio              : #'a Ph.D. candidate in '  # "|" = optional wrap before; tail + seal stay on one line
   bio_seal         : # "pku-seal.svg"   # optional; file in /images/ (inline after bio)
   location         : Beijing, China
   employer         : Peking University
