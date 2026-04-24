@@ -8,8 +8,8 @@ redirect_from:
 ---
 
 <div class="homepage-intro">
-  <p>I am a fourth-year PhD candidate at Peking University, working on safety alignment and the development of next-generation large language models.</p>
-  <!-- <p>My research interests include trustworthy AI, adversarial robustness, and generative model safety.</p> -->
+  <p>I am a fourth-year PhD candidate at the <a href="https://zero-lab-pku.github.io/">ZERO Lab</a> in the School of Intelligence Science and Technology at Peking University, advised by Prof. <a href="https://yisenwang.github.io/">Yisen Wang</a>. I received my bachelor's degree from Shanghai Jiao Tong University in 2022, where I was co-advised by Prof. <a href="https://www.cs.sjtu.edu.cn/en/jiaoshiml/wangshilin.html">Shilin Wang</a> and Prof. <a href="https://thinklab.sjtu.edu.cn/index.html">Junchi Yan</a>.</p>
+  <p>My research focuses on the safety alignment of deep learning models, particularly Large Language Models and diffusion-based image/text generation models with over 890 citations. More broadly, I am interested in exploring next-generation language model paradigms, including model architectures, post-training, and decoding strategies. Recently, I have been studying language diffusion models and investigating their potential integration with conventional auto-regressive pipelines.</p>
 </div>
 
 {% include base_path %}
@@ -64,7 +64,7 @@ redirect_from:
   <li>2019.12 National Scholarship (<strong style="color: #8B0000;">Top 1%</strong> in CE Dept.)</li>
   <li>2020.12 National Scholarship (<strong style="color: #8B0000;">Top 1%</strong> in CE Dept.)</li>
   <li>2021.12 Weichai Power Scholarship</li>
-  <li>2022.05 Outstanding Dormitory (D24 401)</li>
+  <li>2022.05 Outstanding Dormitory</li>
   <li>2022.06 Outstanding Graduate of Shanghai (<strong style="color: #8B0000;">Top 3%</strong>)</li>
   <li>2022.06 Outstanding Undergraduate Thesis, Shanghai Jiao Tong University (<strong style="color: #8B0000;">Top 1%</strong>, 1 out of 128 students in CE Dept.)</li>
 </ul>
