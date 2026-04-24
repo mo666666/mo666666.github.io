@@ -160,9 +160,8 @@ redirect_from:
 <h2 class="homepage-section-title">🔗 Links</h2>
 <p class="publications-note">(Alphabetical Order)</p>
 
-<p><strong>My Best Friends</strong></p>
 <ul>
-  <li>
+  <li><strong>My Best Friends</strong>:
     <a href="https://hygeng.site/">Haoyu Geng</a>,
     <a href="https://sites.google.com/view/zetianjiang">Zetian Jiang</a>,
     <a href="https://scholar.google.com/citations?user=84eGSkUAAAAJ&hl=en">Danning Lao</a>,
@@ -174,11 +173,7 @@ redirect_from:
     <a href="https://scholar.google.com/citations?user=MdVoyiYAAAAJ&hl=en">Yuji Wang</a>,
     <a href="https://yangnianzu0515.github.io/">Nianzu Yang</a>
   </li>
-</ul>
-
-<p><strong>My Best Labmates</strong></p>
-<ul>
-  <li>
+  <li><strong>My Best Labmates</strong>:
     <a href="https://scholar.google.com/citations?user=N-rN5JAAAAAJ&hl=en">Jingyi Cui</a>,
     <a href="https://scholar.google.com/citations?user=nQjREpoAAAAJ&hl=en">Tianqi Du</a>,
     <a href="https://scholar.google.com/citations?user=rSvC2BQAAAAJ&hl=zh-CN">Lizhe Fang</a>,
