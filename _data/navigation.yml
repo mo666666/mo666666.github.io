@@ -8,5 +8,5 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "主页"
+  - title: "中文"
     url: /zh/
