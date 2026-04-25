@@ -12,6 +12,8 @@ author_profile: true
 
 {% include base_path %}
 
+<p><em style="color: #8B0000;">我预计将于2027年6月毕业，目前正在寻找2027年夏季开始的工作机会，方向包括大语言模型训练、量化研究员以及学术岗位。欢迎通过 mo666666@stu.pku.edu.cn 与我联系！</em></p>
+
 <h2 class="homepage-section-title">🎓 教育经历</h2>
 <ul class="homepage-education">
   <li class="homepage-education__item">

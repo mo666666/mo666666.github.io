@@ -15,6 +15,8 @@ redirect_from:
 
 {% include base_path %}
 
+<p><em style="color: #8B0000;">I expect to graduate in June 2027 and am currently seeking job opportunities starting in summer 2027 in areas including large language model training, quant research, and academic positions. Feel free to contact me at mo666666@stu.pku.edu.cn!</em></p>
+
 <h2 class="homepage-section-title">🎓 Education</h2>
 <ul class="homepage-education">
   <li class="homepage-education__item">
