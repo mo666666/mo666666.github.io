@@ -74,7 +74,7 @@ redirect_from:
 
 <p><strong>Graduate</strong></p>
 <ul>
-   <li>2023.12 Sunshine Dormitory</li>
+   <li>2022.12 Sunshine Dormitory</li>
    <li>2023.09 Xiaomi Scholarship (First-Class)</li>
    <li>2023.09 Merit Student of Peking University</li>
    <li>2024.09 Yuehua Luo Scholarship</li>
